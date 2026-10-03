@@ -114,6 +114,8 @@ bruno/
 ### Texts on disk
 | File | Source |
 |------|--------|
+| **`warburg_oplatII_I.pdf`** | Warburg resources — Opera latine II/I (Bruno Latin) |
+| **`bruno_de_imaginum_liano.pdf`** | *On the Composition of Images, Signs and Ideas* — trans. Ignacio Gómez de Liaño |
 | `ea_umbris.html` | Esoteric Archives — De umbris |
 | `ea_arsmemor.html` | EA — Ars memoriae (Peterson) |
 | `ea_magia2.html` | EA — De magia |
@@ -124,7 +126,11 @@ bruno/
 | `ia_opera_tall.pdf` | IA — Opera latine (Tall?) |
 | `ia_bruni_vol.pdf` | IA — Jordani Bruni Nolani opera |
 
-Warburg download page: **403 to bots** — open in browser when needed.
+Warburg download index (browser):  
+https://warburg.sas.ac.uk/research-fellowships/research-projects/archived-research-projects/giordano-bruno/giordano-bruno-download-page
+
+### Magical practice frame (owner note)
+Bruno’s art is **magical practice** — organizing the mind. Mental images as **talismans** to unify and communicate with archetypes. If memory retains basic principles (stars, planets, daemons) as images / “shadows of ideas,” the intellect can reach particulars. Ambitious and powerful system — treat diagrams as operative, not decorative.
 
 ### Tools cloned (`tools/`)
 | Repo | Use |

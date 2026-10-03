@@ -229,8 +229,18 @@ Historical systems must not be falsely collapsed. As an explicit **modern synthe
 
 - SEP: https://plato.stanford.edu/entries/bruno/  
 - Warburg Bruno pages (browser): warburg.sas.ac.uk …/giordano-bruno/…  
+- **Warburg PDF (downloaded):** https://resources.warburg.sas.ac.uk/mnemosyne/Bruno/pdf/oplatII_I.pdf → `texts/warburg_oplatII_I.pdf`  
+- **De imaginum (Gómez de Liaño trans.):** → `texts/bruno_de_imaginum_liano.pdf`  
 - EA: esotericarchives.com/bruno/…  
 - artofmemory.com Bruno pages  
 - Key to Study Bruno arts of memory summary  
 
 Local copies: `texts/` (this repo).
+
+---
+
+## Owner note — magical practice
+
+Bruno’s art is a **magical practice**: a method to organize the mind. He uses mental images as **magic talismans** to unify and to communicate with archetypes. If a person’s memory retains the basic principles of everything (stars, planets, daemons) in images or “shadows of ideas,” they can reach and acquire knowledge of particulars. The system is ambitious and very powerful.
+
+*De imaginum, signorum et idearum compositione* (Gómez de Liaño) explains obscure principles of the *umbris idearum*. Treat diagrams as **operative structures**, not decoration — the intellect operates *through* them.
