@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Grimoirer — Step 1 phoneme practice</title>
+<style>
+body{margin:0;font-family:Georgia,serif;background:#0b0d0c;color:#ece7d6;line-height:1.45}
+.wrap{max-width:720px;margin:0 auto;padding:24px 18px 60px}
+h1{font-weight:normal;letter-spacing:.06em;font-size:20px}
+.sub{color:#8a8f8a;font-size:12px;margin-bottom:16px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0 18px;align-items:center}
+button{background:#175c36;color:#ece7d6;border:0;padding:8px 12px;font-family:inherit;cursor:pointer;border-radius:2px}
+button.primary{background:#2a9a5c}
+button.mute{background:#4a3020}
+button:disabled{opacity:.4}
+.row{display:grid;grid-template-columns:repeat(auto-fill,minmax(64px,1fr));gap:8px;margin:8px 0 20px}
+.cell{background:#121614;border:1px solid #1c201d;border-radius:4px;padding:10px 4px;text-align:center;cursor:pointer}
+.cell:hover{border-color:#175c36}
+.cell.active{background:#1a4a2a;border-color:#7fc79b}
+.cell .d{font-size:32px;line-height:1.2}
+.cell .i{color:#8a8f8a;font-size:11px;margin-top:4px}
+.badge{font-size:11px;padding:2px 8px;border-radius:12px;margin-right:6px}
+.gut{background:#5c1a1a}.pal{background:#6b3a10}.ret{background:#6b5a10}.den{background:#1a4a2a;color:#c0f0d0}
+.lab{background:#1a3a5c}.semi{background:#2a2a5c}.sib{background:#4a1a5c}.vow{background:#4a4a4a}
+.note{border-left:3px solid #175c36;padding:8px 12px;color:#c9c9c9;font-size:12px;margin:12px 0}
+.now{font-size:14px;color:#7fc79b;min-height:1.4em;margin:10px 0}
+input[type=range]{width:120px;vertical-align:middle}
+label{font-size:12px;color:#8a8f8a;margin-right:6px}
+.tips{font-size:12px;color:#8a8f8a}
+</style></head>
+<body><div class="wrap">
+<h1>Step 1 — phoneme practice player</h1>
+<p class="sub">Local audio · chart: <code>step1-devanagari-chart.html</code> · plan: <code>STEP1-DEVANAGARI.md</code> · your voice on top</p>
+<div class="note">Pick a series → Play / loop → <b>chant with the audio, then stop audio and chant alone</b>. Quiet binaural under voice optional (WebAudio tone — not Hz-doctrine). Silence (Laya) after each series.</div>
+
+<div class="bar">
+  <label>Series</label>
+  <select id="series" style="background:#121614;color:#ece7d6;border:1px solid #1c201d;padding:6px 8px">
+    <option value="gut">Gutturals</option>
+    <option value="pal">Palatals</option>
+    <option value="ret">Retroflex</option>
+    <option value="den">Dentals ★</option>
+    <option value="lab">Labials</option>
+    <option value="semi">Semivowels</option>
+    <option value="sib">Sibilants</option>
+    <option value="vow">Vowels</option>
+    <option value="all">All consonants</option>
+  </select>
+  <button class="primary" id="play">Play</button>
+  <button id="loop">Loop off</button>
+  <button id="stop">Stop</button>
+  <button class="mute" id="bed">Bed off</button>
+  <label>Bed <input type="range" id="bedVol" min="0" max="20" value="4"/></label>
+  <label>Voice pace <input type="range" id="pace" min="600" max="2000" step="100" value="1100"/></label>
+</div>
+<div class="now" id="now">—</div>
+<div class="row" id="grid"></div>
+<p class="tips">
+Bed = low oscillator (aesthetic only). Audio path: <code>/phenetics/*.ogg</code> (copied from sanskrithelp).<br/>
+If audio fails, use YouTube “Sanskrit alphabet pronunciation” once, then chant yourself.<br/>
+After series: 3 min silence (Laya) · write series from memory · log.
+</p>
+</div>
+<script>
+const SERIES={
+ gut:{cls:'gut',label:'Gutturals',items:[
+  {id:'ka',d:'क',i:'ka',a:'ka'},{id:'kha',d:'ख',i:'kha',a:'kha'},
+  {id:'ga',d:'ग',i:'ga',a:'ga'},{id:'gha',d:'घ',i:'gha',a:'gha'},
+  {id:'nga',d:'ङ',i:'ṅa',a:'na_k'}
+ ]},
+ pal:{cls:'pal',label:'Palatals',items:[
+  {id:'ca',d:'च',i:'ca',a:'ca'},{id:'cha',d:'छ',i:'cha',a:'cha'},
+  {id:'ja',d:'ज',i:'ja',a:'ja'},{id:'jha',d:'झ',i:'jha',a:'jha'},
+  {id:'nya',d:'ञ',i:'ña',a:'na_j'}
+ ]},
+ ret:{cls:'ret',label:'Retroflex',items:[
+  {id:'ta-retro',d:'ट',i:'ṭa',a:'ta1'},{id:'tha-retro',d:'ठ',i:'ṭha',a:'tha1'},
+  {id:'da-retro',d:'ड',i:'ḍa',a:'da1'},{id:'dha-retro',d:'ढ',i:'ḍha',a:'dha1'},
+  {id:'na-retro',d:'ण',i:'ṇa',a:'na1'}
+ ]},
+ den:{cls:'den',label:'Dentals ★',items:[
+  {id:'ta',d:'त',i:'ta',a:'ta'},{id:'tha',d:'थ',i:'tha',a:'tha'},
+  {id:'da',d:'द',i:'da',a:'da'},{id:'dha',d:'ध',i:'dha',a:'dha'},
+  {id:'na',d:'न',i:'na',a:'na'}
+ ]},
+ lab:{cls:'lab',label:'Labials',items:[
+  {id:'pa',d:'प',i:'pa',a:'pa'},{id:'pha',d:'फ',i:'pha',a:'pha'},
+  {id:'ba',d:'ब',i:'ba',a:'ba'},{id:'bha',d:'भ',i:'bha',a:'bha'},
+  {id:'ma',d:'म',i:'ma',a:'ma'}
+ ]},
+ semi:{cls:'semi',label:'Semivowels',items:[
+  {id:'ya',d:'य',i:'ya',a:'ya'},{id:'ra',d:'र',i:'ra',a:'ra'},
+  {id:'la',d:'ल',i:'la',a:'la'},{id:'va',d:'व',i:'va',a:'va'}
+ ]},
+ sib:{cls:'sib',label:'Sibilants',items:[
+  {id:'sha-palatal',d:'श',i:'śa',a:'sha'},{id:'sha-retro',d:'ष',i:'ṣa',a:'shha'},
+  {id:'sa',d:'स',i:'sa',a:'sa'},{id:'ha',d:'ह',i:'ha',a:'ha'}
+ ]},
+ vow:{cls:'vow',label:'Vowels',items:[
+  {id:'a',d:'अ',i:'a',a:'a'},{id:'aa',d:'आ',i:'ā',a:'aa'},
+  {id:'i',d:'इ',i:'i',a:'i'},{id:'ii',d:'ई',i:'ī',a:'ii'},
+  {id:'u',d:'उ',i:'u',a:'u'},{id:'uu',d:'ऊ',i:'ū',a:'uu'},
+  {id:'e',d:'ए',i:'e',a:'e'},{id:'ai',d:'ऐ',i:'ai',a:'ai'},
+  {id:'o',d:'ओ',i:'o',a:'o'},{id:'au',d:'औ',i:'au',a:'au'},
+  {id:'am',d:'अं',i:'aṃ',a:'anusvara'},{id:'ah',d:'अः',i:'aḥ',a:'visarga'}
+ ]}
+};
+SERIES.all={cls:'gut',label:'All consonants',items:[
+ ...SERIES.gut.items,...SERIES.pal.items,...SERIES.ret.items,...SERIES.den.items,...SERIES.lab.items,...SERIES.semi.items,...SERIES.sib.items
+]};
+const $=id=>document.getElementById(id);
+const sel=$('series'),grid=$('grid'),now=$('now');
+let loop=false,bedOn=false,bedOsc=null,bedGain=null,playing=false,seq=null,idx=0;
+function items(){return SERIES[sel.value].items}
+function render(){
+ const s=SERIES[sel.value];
+ grid.innerHTML='';
+ $('grid').style.gridTemplateColumns='repeat(auto-fill,minmax(64px,1fr))';
+ items().forEach((it,n)=>{
+  const c=document.createElement('div');
+  c.className='cell';c.dataset.n=n;
+  c.innerHTML='<div class="d">'+it.d+'</div><div class="i">'+it.i+'</div>';
+  c.onclick=()=>playAt(n,true);
+  grid.appendChild(c);
+ });
+ $('loop').textContent=loop?'Loop on':'Loop off';
+ $('bed').textContent=bedOn?'Bed on':'Bed off';
+ $('bed').className=bedOn?'':'mute';
+}
+function mark(n){
+ [...grid.children].forEach((el,i)=>el.classList.toggle('active',i===n));
+ if(n>=0&&grid.children[n]) grid.children[n].scrollIntoView({block:'nearest',behavior:'smooth'});
+}
+function playAudio(a){
+ return new Promise(res=>{
+  const au=new Audio('/phenetics/'+a+'.ogg');
+  au.volume=1;
+  au.onended=res;
+  au.onerror=()=>res();
+  au.play().then(()=>setTimeout(()=>{},10)).catch(()=>res());
+ });
+}
+function wait(ms){return new Promise(r=>setTimeout(r,ms))}
+async function playAt(n,user){
+ stop(false);
+ idx=n;playing=true;seq=true;
+ const pace=+$('pace').value;
+ for(let i=n;i<items().length;i++){
+  if(!playing)break;
+  const it=items()[i];idx=i;
+  mark(i);
+  now.textContent=it.d+'  '+it.i+'   ('+(i-n+1)+'/'+items().length-n+')';
+  await playAudio(it.a);
+  await wait(Math.max(200,pace-700));
+  if(!loop&&i===items().length-1){playing=false;break;}
+  if(loop&&i===items().length-1){ /* stay */ }
+ }
+ if(!playing){now.textContent='Stopped';mark(-1);}
+}
+function stop(render){
+ playing=false;seq=null;mark(-1);now.textContent='Stopped';
+ if(bedOsc){try{bedOsc.stop()}catch(e){}bedOsc=null}
+ if(render!==false)$('loop').textContent=loop?'Loop on':'Loop off';
+}
+function toggleBed(){
+ bedOn=!bedOn;
+ if(bedOn){
+  const AC=window.AudioContext||window.webkitAudioContext;
+  const ctx=new AC();
+  bedOsc=ctx.createOscillator();
+  bedGain=ctx.createGain();
+  bedOsc.type='sine';bedOsc.frequency.value=6;
+  bedGain.gain.value=(+$('bedVol').value)/100;
+  bedOsc.connect(bedGain);bedGain.connect(ctx.destination);
+  bedOsc.start();
+ } else if(bedOsc){try{bedOsc.stop()}catch(e){}bedOsc=null}
+ render();
+}
+sel.onchange=()=>{stop();render()};
+$('play').onclick=()=>{if(!bedOn===false)render();playAt(0)};
+$('loop').onclick=()=>{loop=!loop;render()};
+$('stop').onclick=()=>stop();
+$('bed').onclick=toggleBed;
+$('bedVol').oninput=()=>{if(bedGain)bedGain.gain.value=(+$('bedVol').value)/100};
+render();
+</script>
+</div></body></html>

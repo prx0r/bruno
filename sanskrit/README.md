@@ -255,3 +255,6 @@ Components: DerivationTree · SandhiDrill · ParseSentence · PhonemeGrid · lib
 
 Local audio: `sanskrithelp/public/audio/phonemes/` · data: `data/phonemes.json`  
 Doorway: `worlds/matrika-night.json`
+
+
+**Practice player:** `worlds/step1-phoneme-practice.html` → live `http://127.0.0.1:8820/step1-phoneme-practice.html`

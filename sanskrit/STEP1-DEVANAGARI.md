@@ -141,6 +141,16 @@ Doorway file: `bruno/sanskrit/worlds/matrika-night.json` · Stonedoorway presets
 
 ---
 
+## Practice player
+
+**[`worlds/step1-phoneme-practice.html`](./worlds/step1-phoneme-practice.html)** — also live at grimoirer docs: `http://127.0.0.1:8820/step1-phoneme-practice.html`
+
+- Series buttons · tap letter · Play / Loop · **quiet WebAudio bed** · pace slider
+- Audio: `/phenetics/*.ogg` (copied from sanskrithelp phoneme audio)
+- Protocol: play → chant with audio → **stop audio → chant alone** → Laya silence
+
+---
+
 ## Resources
 
 | Need | Where |
