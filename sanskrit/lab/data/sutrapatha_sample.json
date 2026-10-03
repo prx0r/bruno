@@ -1,0 +1,120 @@
+{
+  "note": "Full path available at sources/panini/vidyut/sutrapatha.tsv",
+  "total": 3983,
+  "adhyaya_index": {
+    "1.1": 75,
+    "1.2": 73,
+    "1.3": 93,
+    "1.4": 110,
+    "2.1": 72,
+    "2.2": 38,
+    "2.3": 73,
+    "2.4": 85,
+    "3.1": 150,
+    "3.2": 188,
+    "3.3": 176,
+    "3.4": 117,
+    "4.1": 178,
+    "4.2": 145,
+    "4.3": 168,
+    "4.4": 144,
+    "5.1": 136,
+    "5.2": 140,
+    "5.3": 119,
+    "5.4": 160,
+    "6.1": 223,
+    "6.2": 199,
+    "6.3": 139,
+    "6.4": 175,
+    "7.1": 103,
+    "7.2": 118,
+    "7.3": 120,
+    "7.4": 97,
+    "8.1": 74,
+    "8.2": 108,
+    "8.3": 119,
+    "8.4": 68
+  },
+  "first_20": [
+    {
+      "code": "1.1.1",
+      "text": "vfdDirAdEc"
+    },
+    {
+      "code": "1.1.2",
+      "text": "adeN guRaH"
+    },
+    {
+      "code": "1.1.3",
+      "text": "iko guRavfdDI"
+    },
+    {
+      "code": "1.1.4",
+      "text": "na DAtulopa ArDaDAtuke"
+    },
+    {
+      "code": "1.1.5",
+      "text": "kNiti ca"
+    },
+    {
+      "code": "1.1.6",
+      "text": "dIDIvevIwAm"
+    },
+    {
+      "code": "1.1.7",
+      "text": "halo'nantarAH saMyogaH"
+    },
+    {
+      "code": "1.1.8",
+      "text": "muKanAsikAvacano'nunAsikaH"
+    },
+    {
+      "code": "1.1.9",
+      "text": "tulyAsyaprayatnaM savarRam"
+    },
+    {
+      "code": "1.1.10",
+      "text": "nAjJalO"
+    },
+    {
+      "code": "1.1.11",
+      "text": "IdUdeddvivacanaM pragfhyam"
+    },
+    {
+      "code": "1.1.12",
+      "text": "adaso mAt"
+    },
+    {
+      "code": "1.1.13",
+      "text": "Se"
+    },
+    {
+      "code": "1.1.14",
+      "text": "nipAta ekAjanAN"
+    },
+    {
+      "code": "1.1.15",
+      "text": "ot"
+    },
+    {
+      "code": "1.1.16",
+      "text": "sambudDO SAkalyasyetAvanArze"
+    },
+    {
+      "code": "1.1.17",
+      "text": "uYaH"
+    },
+    {
+      "code": "1.1.18",
+      "text": "U~"
+    },
+    {
+      "code": "1.1.19",
+      "text": "IdUtO ca saptamyarTe"
+    },
+    {
+      "code": "1.1.20",
+      "text": "dADA GvadAp"
+    }
+  ]
+}

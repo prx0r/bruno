@@ -17,3 +17,8 @@ sources/private/*.pdf
 sources/private/*.epub
 sources/private/*.docx
 !sources/private/IMPORT_MANIFEST.json
+
+# large Paniini corpus on disk (data index in lab/data committed)
+sources/panini/vidyut/
+sources/panini/gretil/
+sources/panini/astadhyayi/

@@ -322,3 +322,21 @@ Doorway: `worlds/matrika-night.json`
 - Palaces + alphabetic systems + Lullian trees · 3×3 grid + 6 wall areas = 54 loci/room
 - Familiar themes (Spiderman room) speed install · extract methods, don’t obsess
 - De Umbris: atoms = loci (house→chair) · thirty Intentions/Concepts as representations
+
+
+---
+
+## Computational lab (wired)
+
+**[`lab/README.md`](./lab/README.md)**
+
+```bash
+cd /root/bruno/sanskrit/lab
+python3 daily_runtime.py status
+python3 daily_runtime.py session --faculty memory --series dentals
+python3 daily_runtime.py panini --pratyahara ac
+```
+
+- WorldIR · Bruno engine (LEXICON/WHEEL/SCENE/LOCUS) · Pāṇini runtime (3983 sūtras)
+- Notoria faculty shell + StoneDoorway lab doorway JSON
+- Corpus: `sources/panini/` (Vidyut + GRETIL + astadhyayi JSONL)

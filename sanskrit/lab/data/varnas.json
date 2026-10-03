@@ -1,0 +1,1058 @@
+{
+  "name": "varna-atoms",
+  "source": "sanskrithelp/data/phonemes.json",
+  "items": [
+    {
+      "id": "a",
+      "devanagari": "अ",
+      "iast": "a",
+      "manner": "vowel",
+      "place": "other",
+      "audioFile": "/phenetics/a.ogg",
+      "pratyaharas": [
+        "ac"
+      ],
+      "vowelGrade": "zero",
+      "gunaPair": "e",
+      "vrddhiPair": "ai",
+      "kind": "vowel",
+      "colorScaffold": "#4a4a4a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "aa",
+      "devanagari": "आ",
+      "iast": "ā",
+      "manner": "vowel",
+      "place": "other",
+      "audioFile": "/phenetics/aa.ogg",
+      "pratyaharas": [
+        "ac"
+      ],
+      "vowelGrade": "guna",
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "vowel",
+      "colorScaffold": "#4a4a4a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "i",
+      "devanagari": "इ",
+      "iast": "i",
+      "manner": "vowel",
+      "place": "other",
+      "audioFile": "/phenetics/i.ogg",
+      "pratyaharas": [
+        "ic"
+      ],
+      "vowelGrade": "zero",
+      "gunaPair": "e",
+      "vrddhiPair": "ai",
+      "kind": "vowel",
+      "colorScaffold": "#4a4a4a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "ii",
+      "devanagari": "ई",
+      "iast": "ī",
+      "manner": "vowel",
+      "place": "other",
+      "audioFile": "/phenetics/ii.ogg",
+      "pratyaharas": [
+        "ic"
+      ],
+      "vowelGrade": "guna",
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "vowel",
+      "colorScaffold": "#4a4a4a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "u",
+      "devanagari": "उ",
+      "iast": "u",
+      "manner": "vowel",
+      "place": "other",
+      "audioFile": "/phenetics/u.ogg",
+      "pratyaharas": [
+        "uc"
+      ],
+      "vowelGrade": "zero",
+      "gunaPair": "o",
+      "vrddhiPair": "au",
+      "kind": "vowel",
+      "colorScaffold": "#4a4a4a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "uu",
+      "devanagari": "ऊ",
+      "iast": "ū",
+      "manner": "vowel",
+      "place": "other",
+      "audioFile": "/phenetics/uu.ogg",
+      "pratyaharas": [
+        "uc"
+      ],
+      "vowelGrade": "guna",
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "vowel",
+      "colorScaffold": "#4a4a4a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "r",
+      "devanagari": "ऋ",
+      "iast": "ṛ",
+      "manner": "vowel",
+      "place": "other",
+      "audioFile": "/phenetics/R.ogg",
+      "pratyaharas": [
+        "r̥"
+      ],
+      "vowelGrade": "zero",
+      "gunaPair": "ar",
+      "vrddhiPair": "ar",
+      "kind": "vowel",
+      "colorScaffold": "#4a4a4a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "rr",
+      "devanagari": "ॠ",
+      "iast": "ṝ",
+      "manner": "vowel",
+      "place": "other",
+      "audioFile": "/phenetics/RR.ogg",
+      "pratyaharas": [],
+      "vowelGrade": "guna",
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "vowel",
+      "colorScaffold": "#4a4a4a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "l",
+      "devanagari": "ऌ",
+      "iast": "ḷ",
+      "manner": "vowel",
+      "place": "other",
+      "audioFile": "/audio/phonemes/l-vocalic.mp3",
+      "pratyaharas": [
+        "l̥"
+      ],
+      "vowelGrade": "zero",
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "vowel",
+      "colorScaffold": "#4a4a4a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "e",
+      "devanagari": "ए",
+      "iast": "e",
+      "manner": "vowel",
+      "place": "other",
+      "audioFile": "/phenetics/e.ogg",
+      "pratyaharas": [
+        "ek"
+      ],
+      "vowelGrade": "guna",
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "vowel",
+      "colorScaffold": "#4a4a4a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "ai",
+      "devanagari": "ऐ",
+      "iast": "ai",
+      "manner": "vowel",
+      "place": "other",
+      "audioFile": "/phenetics/ai.ogg",
+      "pratyaharas": [
+        "ac"
+      ],
+      "vowelGrade": "vrddhi",
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "vowel",
+      "colorScaffold": "#4a4a4a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "o",
+      "devanagari": "ओ",
+      "iast": "o",
+      "manner": "vowel",
+      "place": "other",
+      "audioFile": "/phenetics/o.ogg",
+      "pratyaharas": [
+        "ok"
+      ],
+      "vowelGrade": "guna",
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "vowel",
+      "colorScaffold": "#4a4a4a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "au",
+      "devanagari": "औ",
+      "iast": "au",
+      "manner": "vowel",
+      "place": "other",
+      "audioFile": "/phenetics/au.ogg",
+      "pratyaharas": [
+        "ac"
+      ],
+      "vowelGrade": "vrddhi",
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "vowel",
+      "colorScaffold": "#4a4a4a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "am",
+      "devanagari": "ं",
+      "iast": "ṁ",
+      "manner": "nasal",
+      "place": "other",
+      "audioFile": "/phenetics/anusvara.ogg",
+      "pratyaharas": [
+        "yam"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#4a4a4a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "ah",
+      "devanagari": "ः",
+      "iast": "ḥ",
+      "manner": "other",
+      "place": "other",
+      "audioFile": "/phenetics/visarga.ogg",
+      "pratyaharas": [
+        "aś"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#4a4a4a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "ka",
+      "devanagari": "क",
+      "iast": "ka",
+      "manner": "unvoiced_stop",
+      "place": "velar",
+      "audioFile": "/phenetics/ka.ogg",
+      "pratyaharas": [
+        "ka"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#5c1a1a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "kha",
+      "devanagari": "ख",
+      "iast": "kha",
+      "manner": "unvoiced_aspirate",
+      "place": "velar",
+      "audioFile": "/phenetics/kha.ogg",
+      "pratyaharas": [
+        "kha"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#5c1a1a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "ga",
+      "devanagari": "ग",
+      "iast": "ga",
+      "manner": "voiced_stop",
+      "place": "velar",
+      "audioFile": "/phenetics/ga.ogg",
+      "pratyaharas": [
+        "ga"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#5c1a1a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "gha",
+      "devanagari": "घ",
+      "iast": "gha",
+      "manner": "voiced_aspirate",
+      "place": "velar",
+      "audioFile": "/phenetics/gha.ogg",
+      "pratyaharas": [
+        "gha"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#5c1a1a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "nga",
+      "devanagari": "ङ",
+      "iast": "ṅa",
+      "manner": "nasal",
+      "place": "velar",
+      "audioFile": "/phenetics/na_k.ogg",
+      "pratyaharas": [
+        "ñam"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#5c1a1a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "ca",
+      "devanagari": "च",
+      "iast": "ca",
+      "manner": "unvoiced_stop",
+      "place": "palatal",
+      "audioFile": "/phenetics/ca.ogg",
+      "pratyaharas": [
+        "ca"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#6b3a10",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "cha",
+      "devanagari": "छ",
+      "iast": "cha",
+      "manner": "unvoiced_aspirate",
+      "place": "palatal",
+      "audioFile": "/phenetics/cha.ogg",
+      "pratyaharas": [
+        "cha"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#6b3a10",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "ja",
+      "devanagari": "ज",
+      "iast": "ja",
+      "manner": "voiced_stop",
+      "place": "palatal",
+      "audioFile": "/phenetics/ja.ogg",
+      "pratyaharas": [
+        "ja"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#6b3a10",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "jha",
+      "devanagari": "झ",
+      "iast": "jha",
+      "manner": "voiced_aspirate",
+      "place": "palatal",
+      "audioFile": "/phenetics/jha.ogg",
+      "pratyaharas": [
+        "jha"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#6b3a10",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "nya",
+      "devanagari": "ञ",
+      "iast": "ña",
+      "manner": "nasal",
+      "place": "palatal",
+      "audioFile": "/phenetics/na_j.ogg",
+      "pratyaharas": [
+        "ñam"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#6b3a10",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "ta-retro",
+      "devanagari": "ट",
+      "iast": "ṭa",
+      "manner": "unvoiced_stop",
+      "place": "retroflex",
+      "audioFile": "/phenetics/ta1.ogg",
+      "pratyaharas": [
+        "ṭa"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#6b5a10",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "tha-retro",
+      "devanagari": "ठ",
+      "iast": "ṭha",
+      "manner": "unvoiced_aspirate",
+      "place": "retroflex",
+      "audioFile": "/phenetics/tha1.ogg",
+      "pratyaharas": [
+        "ṭha"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#6b5a10",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "da-retro",
+      "devanagari": "ड",
+      "iast": "ḍa",
+      "manner": "voiced_stop",
+      "place": "retroflex",
+      "audioFile": "/phenetics/da1.ogg",
+      "pratyaharas": [
+        "ḍa"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#6b5a10",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "dha-retro",
+      "devanagari": "ढ",
+      "iast": "ḍha",
+      "manner": "voiced_aspirate",
+      "place": "retroflex",
+      "audioFile": "/phenetics/dha1.ogg",
+      "pratyaharas": [
+        "ḍha"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#6b5a10",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "na-retro",
+      "devanagari": "ण",
+      "iast": "ṇa",
+      "manner": "nasal",
+      "place": "retroflex",
+      "audioFile": "/phenetics/na1.ogg",
+      "pratyaharas": [
+        "ṇam"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#6b5a10",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "ta",
+      "devanagari": "त",
+      "iast": "ta",
+      "manner": "unvoiced_stop",
+      "place": "dental",
+      "audioFile": "/phenetics/ta.ogg",
+      "pratyaharas": [
+        "ta"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#1a4a2a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "tha",
+      "devanagari": "थ",
+      "iast": "tha",
+      "manner": "unvoiced_aspirate",
+      "place": "dental",
+      "audioFile": "/phenetics/tha.ogg",
+      "pratyaharas": [
+        "tha"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#1a4a2a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "da",
+      "devanagari": "द",
+      "iast": "da",
+      "manner": "voiced_stop",
+      "place": "dental",
+      "audioFile": "/phenetics/da.ogg",
+      "pratyaharas": [
+        "da"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#1a4a2a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "dha",
+      "devanagari": "ध",
+      "iast": "dha",
+      "manner": "voiced_aspirate",
+      "place": "dental",
+      "audioFile": "/phenetics/dha.ogg",
+      "pratyaharas": [
+        "dha"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#1a4a2a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "na",
+      "devanagari": "न",
+      "iast": "na",
+      "manner": "nasal",
+      "place": "dental",
+      "audioFile": "/phenetics/na.ogg",
+      "pratyaharas": [
+        "nam"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#1a4a2a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "pa",
+      "devanagari": "प",
+      "iast": "pa",
+      "manner": "unvoiced_stop",
+      "place": "labial",
+      "audioFile": "/phenetics/pa.ogg",
+      "pratyaharas": [
+        "pa"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#1a3a5c",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "pha",
+      "devanagari": "फ",
+      "iast": "pha",
+      "manner": "unvoiced_aspirate",
+      "place": "labial",
+      "audioFile": "/phenetics/pha.ogg",
+      "pratyaharas": [
+        "pha"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#1a3a5c",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "ba",
+      "devanagari": "ब",
+      "iast": "ba",
+      "manner": "voiced_stop",
+      "place": "labial",
+      "audioFile": "/phenetics/ba.ogg",
+      "pratyaharas": [
+        "ba"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#1a3a5c",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "bha",
+      "devanagari": "भ",
+      "iast": "bha",
+      "manner": "voiced_aspirate",
+      "place": "labial",
+      "audioFile": "/phenetics/bha.ogg",
+      "pratyaharas": [
+        "bha"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#1a3a5c",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "ma",
+      "devanagari": "म",
+      "iast": "ma",
+      "manner": "nasal",
+      "place": "labial",
+      "audioFile": "/phenetics/ma.ogg",
+      "pratyaharas": [
+        "mam"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#1a3a5c",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "ya",
+      "devanagari": "य",
+      "iast": "ya",
+      "manner": "semivowel",
+      "place": "palatal",
+      "audioFile": "/phenetics/ya.ogg",
+      "pratyaharas": [
+        "ya"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#6b3a10",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "ra",
+      "devanagari": "र",
+      "iast": "ra",
+      "manner": "semivowel",
+      "place": "retroflex",
+      "audioFile": "/phenetics/ra.ogg",
+      "pratyaharas": [
+        "ra"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#6b5a10",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "la",
+      "devanagari": "ल",
+      "iast": "la",
+      "manner": "semivowel",
+      "place": "dental",
+      "audioFile": "/phenetics/la.ogg",
+      "pratyaharas": [
+        "la"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#1a4a2a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "va",
+      "devanagari": "व",
+      "iast": "va",
+      "manner": "semivowel",
+      "place": "labial",
+      "audioFile": "/phenetics/va.ogg",
+      "pratyaharas": [
+        "va"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#1a3a5c",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "sha-palatal",
+      "devanagari": "श",
+      "iast": "śa",
+      "manner": "sibilant",
+      "place": "palatal",
+      "audioFile": "/phenetics/sha.ogg",
+      "pratyaharas": [
+        "śa"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#6b3a10",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "sha-retro",
+      "devanagari": "ष",
+      "iast": "ṣa",
+      "manner": "sibilant",
+      "place": "retroflex",
+      "audioFile": "/phenetics/shha.ogg",
+      "pratyaharas": [
+        "ṣa"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#6b5a10",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "sa",
+      "devanagari": "स",
+      "iast": "sa",
+      "manner": "sibilant",
+      "place": "dental",
+      "audioFile": "/phenetics/sa.ogg",
+      "pratyaharas": [
+        "sa"
+      ],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#1a4a2a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    },
+    {
+      "id": "ha",
+      "devanagari": "ह",
+      "iast": "ha",
+      "manner": "other",
+      "place": "other",
+      "audioFile": "/phenetics/ha.ogg",
+      "pratyaharas": [],
+      "vowelGrade": null,
+      "gunaPair": null,
+      "vrddhiPair": null,
+      "kind": "consonant",
+      "colorScaffold": "#4a4a4a",
+      "provenance": {
+        "paniniMembership": "from phonemes.json pratyaharas/sandhi",
+        "color": "pedagogicalInvention_tantrica2",
+        "sourceAttested": false,
+        "note": "Articulation + pratyahara membership source-backed; color/locus pedagogical unless marked"
+      }
+    }
+  ]
+}
