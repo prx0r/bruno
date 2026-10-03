@@ -1,0 +1,73 @@
+{
+  "name": "stonedoorway-os-lobby",
+  "version": 1,
+  "product": "StoneDoorway",
+  "mode": "beginner",
+  "role": "Imagination OS — liminal lobby + 9 worlds + activation-by-recall + familiar",
+  "research": {
+    "steiner": "Trained imagination as faculty; images gather around focal beings; caution on subjective/external; daily rhythm (GA 12, GA 25, GA 78)",
+    "bruno": "Memory theater as cosmic OS; infinite worlds; loci + images; ontological technology",
+    "castle": "Notae as figure rooms; angel-guide as pedagogy",
+    "corbin": "Mundus imaginalis — intermediate realm (practiced, not metaphysically claimed)",
+    "trussell": "Ritual as structured imagination; playful liminality; familiar as your archetype-object",
+    "method_of_loci": "Grid + walk + vivid images (classical)"
+  },
+  "liminal": {
+    "description": "Dark matrix atrium. Nine pillars/doors. Soft hum. You are not in a lesson yet.",
+    "voice_trigger": "You are now entering the Stone Doorway. Nine worlds stand in the atrium. Name them. As you name them, they wake. Your familiar is here. Choose one door. Work. Then return.",
+    "bed": "optional quiet binaural — matrika-night.json",
+    "threshold": "Settle the breath. Stop the day for a moment."
+  },
+  "activation": {
+    "type": "retrieval_boot",
+    "instruction": "Name the nine worlds aloud. Each name lights a pillar. Incomplete recall = weaker grid — re-walk the lobby.",
+    "why": "First cognitive task is recall itself — install before navigation (Bruno places + retrieval practice)"
+  },
+  "familiar": {
+    "type": "mnemonic_companion",
+    "label": "Your familiar lives in the liminal — always at the threshold.",
+    "honesty": "IMAGO you built. Not a claimed external entity. Optional AI voice later.",
+    "appearance_cue": "At the Threshold door, a figure of your colour and place.",
+    "physical_talisman_optional": "ring, stone, or card with your glyph",
+    "lab_object": "lexicon entry + caelum locus at lobby root"
+  },
+  "worlds": [
+    {"id": 1, "key": "matrika", "name": "Mātṛkā", "door": "pillar_1", "runtime": "sound_bench", "lab": "install varna rows", "faculty": "memory"},
+    {"id": 2, "key": "laya", "name": "Laya", "door": "pillar_2", "runtime": "absorption", "lab": "chant→mental→silence→bindu", "faculty": "understanding"},
+    {"id": 3, "key": "panini", "name": "Pāṇini", "door": "pillar_3", "runtime": "grammar_machine", "lab": "sūtra traces + pratyāhāra", "faculty": "intellect"},
+    {"id": 4, "key": "caelum", "name": "Caelum", "door": "pillar_4", "runtime": "spatial_os", "lab": "nine-door geometry (this lobby)", "faculty": "memory"},
+    {"id": 5, "key": "catena", "name": "Catena", "door": "pillar_5", "runtime": "chains", "lab": "derivation sequences", "faculty": "intellect"},
+    {"id": 6, "key": "arbor", "name": "Arbor", "door": "pillar_6", "runtime": "trees", "lab": "tattvas / taxonomy", "faculty": "understanding"},
+    {"id": 7, "key": "text_worlds", "name": "Text Worlds", "door": "pillar_7", "runtime": "text_worlds", "lab": "Śivasūtras / IPVV rooms", "faculty": "understanding"},
+    {"id": 8, "key": "familiar_room", "name": "Familiar’s Room", "door": "pillar_8", "runtime": "companion", "lab": "talisman + recall of install history", "faculty": "memory"},
+    {"id": 9, "key": "threshold", "name": "Threshold / Return", "door": "pillar_9", "runtime": "liminal", "lab": "leave · log · recoil", "faculty": "eloquence"}
+  ],
+  "boot_script": [
+    "enter",
+    "threshold_settle",
+    "recall_nine_worlds",
+    "activate_pillars",
+    "familiar_appears",
+    "choose_one_world",
+    "work",
+    "return"
+  ],
+  "daily_cli": {
+    "status": "python3 sanskrit/lab/daily_runtime.py doorway",
+    "session": "python3 sanskrit/lab/daily_runtime.py session --faculty memory --series dentals",
+    "note": "Full lobby walk is imaginal practice; CLI supports lab sessions + doorway JSON"
+  },
+  "honesty": {
+    "metaphysical_claims": false,
+    "entity_conjuration": false,
+    "neuroscience_hype": false,
+    "what_is_real": "threshold + retrieval + image + voice + place = strong install protocol",
+    "familiar_is": "your mnemonic being",
+    "familiar_is_not": "an independent external spirit we claim exists"
+  },
+  "safety": {
+    "stop_always": true,
+    "steiner_caution": "Do not confuse inner images with external beings — label subjective vs lab object",
+    "not_gothic_goetia": true
+  }
+}

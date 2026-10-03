@@ -340,3 +340,16 @@ python3 daily_runtime.py panini --pratyahara ac
 - WorldIR · Bruno engine (LEXICON/WHEEL/SCENE/LOCUS) · Pāṇini runtime (3983 sūtras)
 - Notoria faculty shell + StoneDoorway lab doorway JSON
 - Corpus: `sources/panini/` (Vidyut + GRETIL + astadhyayi JSONL)
+
+
+---
+
+## StoneDoorway OS — imagination system
+
+**[`STONEDOORWAY-OS-IMAGINATION.md`](./STONEDOORWAY-OS-IMAGINATION.md)** · lobby: [`worlds/stonedoorway-os-lobby.json`](./worlds/stonedoorway-os-lobby.json)
+
+- Beginner mode: liminal atrium + **9 worlds** + **activation-by-recall** + familiar/talisman
+- Research: Steiner (trained imagination) · Bruno (memory theater OS) · Castle notae · Corbin imaginal · Trussell ritual aesthetic
+- Boot: enter → name the nine worlds → pillars light → choose one door → work → return
+- Familiar = your mnemonic being (not entity-conjuration)
+- `python3 lab/daily_runtime.py doorway`

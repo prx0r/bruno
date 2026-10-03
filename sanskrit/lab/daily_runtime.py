@@ -99,11 +99,15 @@ def cmd_panini(args: argparse.Namespace) -> None:
 
 
 def cmd_doorway() -> None:
-    p = Path(__file__).resolve().parent.parent / "worlds" / "stonedoorway-lab-session.json"
-    if p.exists():
-        print(p.read_text())
-    else:
-        print(json.dumps({"error": "doorway file missing", "path": str(p)}))
+    worlds = Path(__file__).resolve().parent.parent / "worlds"
+    for name in ("stonedoorway-os-lobby.json", "stonedoorway-lab-session.json"):
+        p = worlds / name
+        if p.exists():
+            print(p.read_text())
+            if name.endswith("os-lobby.json"):
+                print("\n--- also: sanskrit/STONEDOORWAY-OS-IMAGINATION.md ---")
+            return
+    print(json.dumps({"error": "doorway files missing", "dir": str(worlds)}))
 
 
 def main() -> None:
