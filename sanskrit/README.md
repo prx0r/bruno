@@ -123,3 +123,15 @@ Components: DerivationTree · SandhiDrill · ParseSentence · PhonemeGrid · lib
 - Best next text: **Parātrīśikā-vivaraṇa** + **Tantrāloka III** (III.232–233)  
 - Dual-view phonemes · four floors of speech · Mātṛkā vs Mālinī paths · word/grammar/mantric levels  
 - Three maps: mouth + body (non-ritual) + Brunian space  
+
+---
+
+## World geometry (deepest formulation)
+
+**Word-for-word:** [`WORLD-GEOMETRY-SANSKRIT.md`](./WORLD-GEOMETRY-SANSKRIT.md)
+
+- Preferred edition: Singh / Bäumer / Lakshman Joo (Motilal Banarsidass) — better than full Tantrāloka first  
+- Four layers: phonetic geometry · Pāṇini physics · Bruno topology · Trika vertical axis (parā→vaikharī)  
+- Modes: Pāṇini · Trika · Bruno · Notoria  
+- Tiny first structure: ANUTTARA → AHAM → phonemes → grammar → speech  
+- End-state: internal symbolic environment to think Sanskrit philosophy from inside its categories  
