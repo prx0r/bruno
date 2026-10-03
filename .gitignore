@@ -1,0 +1,13 @@
+node_modules/
+*.log
+.DS_Store
+worlds/renders/
+**/session*.wav
+
+# Keep PDFs — they are the study corpus (private machine)
+# Uncomment to slim git:
+# texts/*.pdf
+
+# Cloned external tools — see README; clone locally as needed
+tools/*
+!tools/README.md
