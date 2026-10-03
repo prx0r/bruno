@@ -216,3 +216,15 @@ Components: DerivationTree · SandhiDrill · ParseSentence · PhonemeGrid · lib
 - Night = absorption (chant→mental→silence); morning = recoil (speak the language)
 - Volume: `36-tattvas-sanskrit-layayoga.md` · sanskrithelp ROs + `layayoga.txt`
 - Optional advanced: SAUḤ (emission) / KHPHREṀ (withdrawal)
+
+---
+
+## Convergence: Sanskrit lab in the head
+
+**[`CONVERGENCE-SANSKRIT-LAB.md`](./CONVERGENCE-SANSKRIT-LAB.md)**
+
+- Stacks converge: StoneDoorway ↔ Notoria ↔ Mātṛkā ↔ **Laya** ↔ Tantrāloka ↔ Pāṇini ↔ Bruno
+- StoneDoorway = door into the lab (chanting, breath, VB optional, night journeys) — not replaced
+- **Sanskrit lab** = living internal laboratory (sound bench → absorption → grammar machine → text worlds → residents → monuments)
+- Bruno *Ars reminiscendi* downloaded: `texts/bruno_ars_reminiscenti.html`
+- Tonight: install row → laya silence → speak one word → log
