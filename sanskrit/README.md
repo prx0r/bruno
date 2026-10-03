@@ -176,3 +176,18 @@ Components: DerivationTree · SandhiDrill · ParseSentence · PhonemeGrid · lib
 - **No Hz-per-phoneme table in the texts** — binaural = modern bed overlay
 - Volume: science thesis, platinum sound-matrix packs, Āhnika texts, ROs
 - Night: Stonedoorway bed + spoken phonemes + tantrica2 color map + Notoria shell
+
+---
+
+## Pāṭala Worlds stack
+
+**Essay:** [`OPENPATALA-WORLD-STACK.md`](./OPENPATALA-WORLD-STACK.md)  
+**Architecture:** [`PATALAWORLDS-ARCHITECTURE.md`](./PATALAWORLDS-ARCHITECTURE.md)
+
+- OpenPāṭala = canonical reality · Pāṭala = meaning/translation · Education → **WORLD** (internalize)
+- Adjacent project: **patalaworlds** — not inside OpenPāṭala
+- StoneDoorway = experiential renderer (day study / night journey)
+- Essays demoted; experience → recall → recognize elsewhere
+- Worlds ladder: Sound → Language machine → Śiva Sūtras → Spanda → Pratyabhijñā/IPVV → Parātrīśikā → Mālinīvijayottara → Tantrāloka
+- Phoneme = atomic multi-layer object (linguistic + Pāṇinian + mnemonic + source-attested Trika)
+- AI: narrator · world master · socratic · scholar (EXPERIENCE ↔ SOURCE)
