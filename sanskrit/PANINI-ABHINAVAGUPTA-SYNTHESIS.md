@@ -360,3 +360,17 @@ That would actually feel much closer to installing a new cognitive operating sys
 - Formal mantra-nyāsa ≠ casual study map  
 - Notoria ≠ pseudo-Tantric ceremony  
 - Legitimate modern synthesis: **formal machine + metaphysics of manifestation + internal representation + ritual acquisition**
+
+---
+
+## Local copy (downloaded 2026-10-03)
+
+| File | Source |
+|------|--------|
+| `texts/paratrisika_jaideva_singh_djvu.txt` | IA DjVuOCR (~741KB) — searchable; diacritics often stripped (Malini, vak, mantra, anuttara) |
+| `texts/paratrisika_jaideva_singh_text.pdf` | IA text PDF (~43MB) |
+| `texts/para-trishika-metadata.json` | IA item metadata |
+
+IA item: https://archive.org/details/abhinavagupta-para-trishika-vivarana-the-secret-of-tantric-mysticism-jaideva-singh
+
+**OCR caveat:** DjVu text is usable for search/structure; prefer PDF for quotation fidelity. Terms: Malini×44 · mantra×272 · anuttara×212 · vak×66 · Paratrisika×31.
