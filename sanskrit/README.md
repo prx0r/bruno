@@ -228,3 +228,16 @@ Components: DerivationTree · SandhiDrill · ParseSentence · PhonemeGrid · lib
 - **Sanskrit lab** = living internal laboratory (sound bench → absorption → grammar machine → text worlds → residents → monuments)
 - Bruno *Ars reminiscendi* downloaded: `texts/bruno_ars_reminiscenti.html`
 - Tonight: install row → laya silence → speak one word → log
+
+---
+
+## Visions — StoneDoorway endgame
+
+**[`VISONS.md`](./VISONS.md)**
+
+- AI in the ears · Gateway-style onboarding · subconscious viewing platform
+- Voice: “leave me here for 1 hour” · manifestation mode · scenario mode
+- Guided chanting/breath (Laya + Mātṛkā) + optional Vijñāna Bhairava
+- Bruno + Pāṇini as **moving machines** you add to and simulate
+- Memory + “astral” = install via emotion; speak = manifest the stack
+- ElevenLabs scenarios later — now: foundation sessions + lab rooms
