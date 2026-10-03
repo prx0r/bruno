@@ -1,10 +1,102 @@
-# Sanskrit — Bruno five-ring machine
+# Sanskrit — Pāṇini × Bruno machine
 
-Root × person × tense/mood × voice × context → produce form.
+> **First domain** for the Bruno memory OS. Hindi is the later spoken layer.  
+> Full plan: [`SANSKRIT-FIRST.md`](./SANSKRIT-FIRST.md)  
+> Platform: `/root/sanskrithelp` (`prx0r/sanskrithelp`)  
+> Method: Notoria shell · Memory OS: Bruno
 
-Pāṇinian cases as Lampas-style inhabitants:
-kartṛ (agent) · karman (object) · karaṇa (instrument) · sampradāna (recipient) · apādāna (source) · adhikaraṇa (location)
+---
 
-Sandhi/compounds = wheels/trees, not passive tables.
+## Machine map (Bruno rooms ↔ sanskrithelp zones)
 
-See `../bruno.md`.
+| Room | Zone | Operate |
+|------|------|---------|
+| **Sound Hall** | 1–2 Pratyāhāras + phonemes | Śivasūtras, pratyāhāras, pronunciation |
+| **Root Forest** | 5 Dhātus | √gam → tree of forms |
+| **Kāraka Temple** | 8 Kārakas + endings | agent/object/instrument as statues |
+| **Sandhi Gates** | 4 Sandhi | forms meet, transform, emerge |
+| **Lakāra wheel** | 9 Verbs | root × person × number × voice × tense → form |
+| **Samāsa workshop** | 10 Compounds | many objects → one object |
+| **Derivation engine** | 7 Suffixes | prefixes/kṛt/taddhita as machinery |
+
+---
+
+## Five-ring wheel (Bruno)
+
+```text
+RING 1 — ROOT        √gam  √bhū  √kṛ  √dṛś  √vad
+RING 2 — PERSON      aham  tvam  saḥ  vayam
+RING 3 — TENSE/MOOD  present imperfect future imperative
+RING 4 — VOICE       parasmaipada  ātmanepada
+RING 5 — CONTEXT     home teacher river temple book
+```
+
+**Operate:** ROOT × PERSON × TENSE × VOICE → produce form → walk through sandhi gate.
+
+Tool: clone `tools/volvelle` from bruno repo (see `/root/bruno/tools/README.md`).
+
+---
+
+## Pāṇinian cases as Lampas statues
+
+| Kāraka | Role | Statue note |
+|--------|------|-------------|
+| **kartṛ** | agent | carries out |
+| **karman** | object | undergoes |
+| **karaṇa** | instrument | tools in hand |
+| **sampradāna** | recipient | receives |
+| **apādāna** | source | separates |
+| **adhikaraṇa** | location | the room itself |
+
+---
+
+## Two tracks
+
+1. **Sanskrit** — read/generate simple sentences (sanskrithelp zones)  
+2. **Pāṇini** — explain why forms occur (pratyāhāras, rules, derivation)  
+
+**Bruno** = spatial/symbolic machinery. **Notoria** = attention shell. **Don’t** memorize ~4,000 sūtras day one.
+
+---
+
+## Month 1
+
+| Week | Focus | Room |
+|------|--------|------|
+| 1 | Sounds, Devanāgarī, Śivasūtras | Sound Hall |
+| 2 | Nouns + cases | Case Temple |
+| 3 | Roots + present tense | Root Forest + wheel |
+| 4 | Basic sandhi | Sandhi Gates |
+
+Operate **gacchati** in week 3. Night: mental walk.
+
+---
+
+## Sanskrit vs Hindi
+
+| | Sanskrit | Hindi |
+|--|----------|-------|
+| Role | Cognitive architecture / machine | Spoken life in India |
+| When | **Now** | After machine (or light parallel later) |
+| Method | Pāṇini zones + Bruno rooms | High-freq + listening + speaking |
+| Don’t | Force full grammar onto Hindi | Force Hindi through full Pāṇini |
+
+---
+
+## Session shell (Notoria)
+
+1. General (memory | understanding)  
+2. Nota = zone chart  
+3. Drill in sanskrithelp  
+4. Bruno step: place in Hall/Temple/Gate/Wheel  
+5. One-line log  
+
+See `SANSKRIT-FIRST.md` and ochemapp `NOTORIA-METHOD.md`.
+
+---
+
+## Data already in sanskrithelp
+
+`data/pratyaharas.json` · `phonemes.json` · `dhatus.json` · `sandhi-rules.json` · `verb-endings.csv` · `nominal-endings-inflected.csv`
+
+Components: DerivationTree · SandhiDrill · ParseSentence · PhonemeGrid · lib/derivation · lib/sandhi
