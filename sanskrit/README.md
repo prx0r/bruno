@@ -382,3 +382,14 @@ python3 daily_runtime.py panini --pratyahara ac
 - Explore personally first · guided journeys later (separate track)
 - Memory world: M1–M5 staged tests unlock larger grids
 - Clone future: tunnel + custom bed + AI onboarding per world
+
+
+## Gurdjieff Enneagram — process grammar
+
+**[`STONEDOORWAY-GURDJIEFF-ENNEAGRAM.md`](./STONEDOORWAY-GURDJIEFF-ENNEAGRAM.md)**
+
+- Sigil = **Gurdjieff/Fourth Way Enneagram** (not heptagram; not “ancient Sufi” claim)
+- Process engine: Law of Three (3-6-9) + Law of Seven (1-4-2-8-5-7)
+- Stack: Bruno representation · Pāṇini transform · **Gurdjieff process** · Trika enact · StoneDoorway orchestrates
+- Boot: circle → triangle → process line → door → “Remember yourself.”
+- Conditioning: binaural + imaginal rehearsal → real-life cue (sports / confidence / speech)

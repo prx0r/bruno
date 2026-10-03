@@ -102,19 +102,72 @@
     }
   ],
   "progressive_grids": {
-    "s1": {"windows": 1, "instruction": "One window in the dark. Name it. Walk through."},
-    "s2": {"windows": 4, "layout": "2x2", "instruction": "Four windows. Reconstruct them. Pick one."},
-    "s3": {"windows": 9, "layout": "3x3", "instruction": "Nine pillars. Name all. Choose a door."}
+    "s1": {
+      "windows": 1,
+      "instruction": "One window in the dark. Name it. Walk through."
+    },
+    "s2": {
+      "windows": 4,
+      "layout": "2x2",
+      "instruction": "Four windows. Reconstruct them. Pick one."
+    },
+    "s3": {
+      "windows": 9,
+      "layout": "3x3",
+      "instruction": "Nine pillars. Name all. Choose a door."
+    }
   },
   "direct_doorways": [
-    {"say": "Let's go into Sanskrit world", "world": "matrika", "then": ["install", "speak", "return"]},
-    {"say": "Let's go into grammar world", "world": "panini", "then": ["trace", "speak", "return"]},
-    {"say": "Let's go into silence", "world": "laya", "then": ["chant", "silence", "return"]}
+    {
+      "say": "Let's go into Sanskrit world",
+      "world": "matrika",
+      "then": [
+        "install",
+        "speak",
+        "return"
+      ]
+    },
+    {
+      "say": "Let's go into grammar world",
+      "world": "panini",
+      "then": [
+        "trace",
+        "speak",
+        "return"
+      ]
+    },
+    {
+      "say": "Let's go into silence",
+      "world": "laya",
+      "then": [
+        "chant",
+        "silence",
+        "return"
+      ]
+    }
   ],
   "honesty": {
     "rendered_ui_required": false,
     "practice_is": "audial + imaginal reconstruction",
     "familiar_is": "voice-cued mnemonic being",
     "beds_are": "aesthetic context under voice"
-  }
+  },
+  "sigil_note": "Gurdjieff Enneagram — process boot glyph (not heptagram)",
+  "conditioning_beds": [
+    {
+      "key": "sports",
+      "bed_preset": "sports_rehearsal",
+      "use": "body executing move perfectly"
+    },
+    {
+      "key": "confidence",
+      "bed_preset": "confidence_threshold",
+      "use": "speaking / entering the room"
+    },
+    {
+      "key": "sanskrit",
+      "bed_preset": "matrika_install",
+      "use": "chant + locus + speak"
+    }
+  ]
 }

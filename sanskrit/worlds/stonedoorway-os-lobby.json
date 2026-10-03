@@ -184,13 +184,37 @@
     "return"
   ],
   "sigil": {
-    "shape": "heptagram_septagram_in_circle",
+    "shape": "Gurdjieff_Enneagram_Fourth_Way",
+    "geometry": "circle + 3-6-9 triangle + 1-4-2-8-5-7 hexadic circuit",
+    "meaning": "enter a process consciously (Law of Three + Law of Seven)",
     "roles": [
       "brand",
       "boot",
       "entry_emblem",
-      "anchor_image"
+      "process_grammar_kernel"
     ],
-    "usage": "black field → faint sigil → tone → doorway"
+    "not": "heptagram · not ancient Sufi gateway claim",
+    "history": "documented from Gurdjieff (~1916 via Ouspensky); personality types are later",
+    "boot": "darkness → circle → triangle → process line → door opens"
+  },
+  "process_grammar": {
+    "bruno": "representation",
+    "panini": "linguistic_transform",
+    "gurdjieff": "process_stages_and_shocks",
+    "trika": "embodied_enactment",
+    "stonedoorway": "orchestrator"
+  },
+  "conditioning": {
+    "stages": [
+      "imaginal_binaural_rehearsal",
+      "real_life_same_cue",
+      "log_transfer"
+    ],
+    "uses": [
+      "sports",
+      "confidence",
+      "sanskrit_speech"
+    ],
+    "honesty": "training aid; not medical claim"
   }
 }

@@ -2,7 +2,7 @@
 
 > Trigger → liminal lobby → recall → select → walk → audio-guided imaginal world  
 > **Not a renderer** — an **auditory bootloader / OS shell for inner worlds**  
-> Sigil: **heptagram in a circle** — brand + boot + entry emblem  
+> Sigil: **Gurdjieff Enneagram in a circle** — brand + boot + entry emblem  
 > Worlds ship as **git runtimes** (JSON/protocol), not assets you must render  
 > Companion: `STONEDOORWAY-AUDIAL-OS.md` · beds: `worlds/stonedoorway-world-beds.json`
 
@@ -51,11 +51,11 @@ Constraint forces **you** to do the install.
 
 ---
 
-## Heptagram — the brand sigil
+## Gurdjieff Enneagram — the brand sigil
 
 | Fact | Use |
 |------|-----|
-| Shape = **seven-pointed star** in a circle | heptagram / septagram / {7/2} or {7/3} |
+| Shape = **seven-pointed star** in a circle | Gurdjieff Enneagram (circle + 3-6-9 + 1-4-2-8-5-7) / {7/2} or {7/3} |
 | Feel = portal, structured gateway, symmetry + mystery | activation sigil of entry |
 | Not required to equal one historic system | **brand + boot + doorway emblem** |
 
@@ -63,7 +63,7 @@ Constraint forces **you** to do the install.
 
 ```text
 1. black field
-2. heptagram sigil appears faintly
+2. Gurdjieff Enneagram sigil appears faintly
 3. low binaural / drone starts
 4. AI: "StoneDoorway. Enter."
 5. doorway opens
@@ -201,7 +201,7 @@ Choose one. Walk through.
 | Beat | Audio |
 |------|-------|
 | 1 | Silence / black field (imaginal) |
-| 2 | Heptagram sigil (faint in mind) |
+| 2 | Gurdjieff Enneagram sigil (faint in mind) |
 | 3 | Low drone / binaural bed |
 | 4 | “StoneDoorway. Enter.” |
 | 5 | Doorway opens (tunnel cue) |
