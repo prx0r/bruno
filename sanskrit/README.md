@@ -301,3 +301,24 @@ Doorway: `worlds/matrika-night.json`
 - Bruno engine: LEXICON · WHEEL · SCENE · LOCUS
 - Pāṇini spaces as constrained tuples (root × operator × tense × …)
 - Frozen corpus: `sources/private/` (9 files from R2 uploads) + IMPORT_MANIFEST.json
+
+---
+
+## Castle Ars Notoria — canonical fit
+
+**[`CASTLE-ARS-NOTORIA-FIT.md`](./CASTLE-ARS-NOTORIA-FIT.md)** · corpus: `sources/private/castle-ars-notoria.pdf`
+
+- Notoria = **faculty engine** (memory · intellect · eloquence) over images on places + voice
+- Method of places ↔ Bruno LOCUS/IMAGO · notae ↔ discipline hubs
+- Angel-guide → StoneDoorway teacher-in-ears (not Goetic brand)
+- Abbreviata = extract what you need · 20-min sessions legitimate
+- Four-wheeled figures ↔ Bruno wheels · voces ≠ Sanskrit bījas (labelled)
+- Sources: Turner public · Castle canonical private · Skinner private
+
+## Bruno methods forum (places · images · Llull · grids)
+
+**[`BRUNO-METHODS-FORUM-places-images.md`](./BRUNO-METHODS-FORUM-places-images.md)**
+
+- Palaces + alphabetic systems + Lullian trees · 3×3 grid + 6 wall areas = 54 loci/room
+- Familiar themes (Spiderman room) speed install · extract methods, don’t obsess
+- De Umbris: atoms = loci (house→chair) · thirty Intentions/Concepts as representations

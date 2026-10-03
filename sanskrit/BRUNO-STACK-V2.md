@@ -9,6 +9,9 @@
 
 ## See also
 
+**[`CASTLE-ARS-NOTORIA-FIT.md`](./CASTLE-ARS-NOTORIA-FIT.md)** — Castle as canonical Notoria method resource
+
+
 **[`BRUNO-WHEELS-IMAGINAL-COMPILER.md`](./BRUNO-WHEELS-IMAGINAL-COMPILER.md)** — wheels + WorldIR + three-compiler master architecture (verbatim freeze)
 
 ## The stack (cleaner)
