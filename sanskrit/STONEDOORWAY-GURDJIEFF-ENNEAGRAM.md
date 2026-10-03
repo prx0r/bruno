@@ -1,4 +1,6 @@
-# StoneDoorway × Gurdjieff Enneagram — process grammar
+# StoneDoorway × Gurdjieff Enneagram — ARCHIVED / NOT USED
+
+> **Not in active stack.** Sigil discussion retained for historical notes only.
 
 > Sigil correction: **not a heptagram** — this is the **Gurdjieff / Fourth Way Enneagram**.  
 > Meaning: **enter a process consciously** — Law of Three (3-6-9) + Law of Seven (1-4-2-8-5-7).  

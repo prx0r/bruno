@@ -1,3 +1,7 @@
+> **Start here:** [`../HANDOVER.md`](../HANDOVER.md) — full day handover  
+> **Active stack:** Castle Notoria (bible) → Bruno → Pāṇini → Trika content → StoneDoorway OS  
+> **Gurdjieff: not used** in active system.
+
 # Sanskrit — Pāṇini × Bruno machine
 
 > **First domain** for the Bruno memory OS. Hindi is the later spoken layer.  
@@ -395,7 +399,7 @@ python3 daily_runtime.py panini --pratyahara ac
 - Conditioning: binaural + imaginal rehearsal → real-life cue (sports / confidence / speech)
 
 
-## Gurdjieff useful pieces + Castle bible status
+## Gurdjieff — ARCHIVED / NOT USED
 
 **[`GURDJIEFF-USEFUL-FOR-US.md`](./GURDJIEFF-USEFUL-FOR-US.md)**
 

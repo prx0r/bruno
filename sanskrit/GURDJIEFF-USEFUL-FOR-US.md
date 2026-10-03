@@ -1,4 +1,8 @@
-# Gurdjieff / Fourth Way — what’s actually useful here
+# Gurdjieff / Fourth Way — ARCHIVED / NOT USED
+
+> **Owner decision (2026-10-03): we don’t need Gurdjieff in this system.**  
+> Active stack = Castle bible + Bruno + Pāṇini + Trika content + StoneDoorway OS.  
+> This file is retained for curiosity only. Do not wire into runtime.
 
 > Not personality types. Not “ancient Sufi gateway” branding.  
 > Useful pieces only, mapped onto StoneDoorway + Sanskrit lab.  

@@ -3,7 +3,6 @@
 > **Drop Solomonic/conjuration as the core.**  
 > **Castle Ars Notoria = bible** for faculty shell + method of places (kept).  
 > Bruno = imagination · memory · inner transformation runtime.  
-> Gurdjieff = process grammar (shocks) on top — not a replacement.  
 > Date: 2026-10-03 · Reframes `CONVERGENCE-SANSKRIT-LAB.md` · `VISONS.md`
 
 ---
@@ -18,6 +17,8 @@
 ## The stack (cleaner)
 
 ```text
+CASTLE NOTORIA  faculty shell · places · notae rooms  (BIBLE)
+        ↓
 BRUNO          inner imagination architecture
                loci · images · bonds · contractio · seals as geometry
         ↓

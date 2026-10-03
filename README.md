@@ -1,3 +1,16 @@
+# Bruno — Sanskrit Lab + StoneDoorway OS
+
+**Read first:** [`HANDOVER.md`](./HANDOVER.md)
+
+Active stack: **Castle Notoria bible · Bruno runtime · Pāṇini runtime · Trika content · StoneDoorway audial OS**  
+Gurdjieff: not used.
+
+```bash
+cd sanskrit/lab
+python3 daily_runtime.py status
+python3 daily_runtime.py session --faculty memory --series dentals
+```
+
 # Bruno — Personal Cognitive Architecture
 
 > Memory OS research repo. **Not** Stonedoorway. **Not** a Grimoirer edition dump.
