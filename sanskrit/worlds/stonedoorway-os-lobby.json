@@ -216,5 +216,19 @@
       "sanskrit_speech"
     ],
     "honesty": "training aid; not medical claim"
+  },
+  "castle_bible": {
+    "status": "canonical_session_shell",
+    "doc": "sanskrit/CASTLE-ARS-NOTORIA-FIT.md",
+    "runtime": "sanskrit/lab/notoria_session.py",
+    "note": "Gurdjieff process grammar sits ON TOP of Castle; does not replace it"
+  },
+  "gurdjieff_useful": {
+    "self_remembering": "boot: Remember yourself",
+    "waking_sleep": "threshold = wake",
+    "octave_intervals": "mi-fa, si-do = plateaus",
+    "shocks": "speak / contractio / familiar cue / bed change",
+    "law_of_three": "active · passive · reconciling",
+    "doc": "sanskrit/GURDJIEFF-USEFUL-FOR-US.md"
   }
 }

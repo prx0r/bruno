@@ -1,8 +1,9 @@
 # Bruno stack v2 — imagination technology
 
-> **Drop Solomonic/ceremonial as the core.**  
-> Bruno = imagination · memory · inner transformation.  
-> Notoriates = optional historical research, not the daily ritual engine.  
+> **Drop Solomonic/conjuration as the core.**  
+> **Castle Ars Notoria = bible** for faculty shell + method of places (kept).  
+> Bruno = imagination · memory · inner transformation runtime.  
+> Gurdjieff = process grammar (shocks) on top — not a replacement.  
 > Date: 2026-10-03 · Reframes `CONVERGENCE-SANSKRIT-LAB.md` · `VISONS.md`
 
 ---
@@ -37,7 +38,7 @@ STONE DOORWAY  voice door into the lab (not entity summoning)
 | **Pāṇini** | How the **sound-system behaves** |
 | **Trika / Abhinavagupta** | How it is **enacted** — body, breath, sound, awareness |
 | **StoneDoorway** | How you **enter and traverse** (guided, voice, laya) |
-| **Notoria** | Optional historical shell — keep for research, not core identity |
+| **Castle Notoria** | **Canonical bible** — faculty shell, method of places, notae rooms |
 
 **StoneDoorway reframe:**  
 *not summoning external entities*  
@@ -185,7 +186,7 @@ Internal world = **library of data structures**, each seal a reusable operator.
 |--------------|----------------|
 | Goetic circles, robes, fumigations as routine | **Imagination training** as the practice |
 | Conjure / command entities as StoneDoorway goal | **Inhabitable structures** as the goal |
-| Notoria as daily identity shell | Notoria optional research/historical layer |
+| Goetic conjuration as identity | **Castle Notoria faculty engine** (bible) |
 | Decorative seal woodcuts as source of truth | **Operational descriptions** (sphere + great circles) |
 | 1,440 capacity claim as fact | **Recursive distinction** as the actual principle |
 
@@ -198,7 +199,7 @@ Natural + mathematical magic (sympathy, words, numbers, times, images) remain *s
 ```text
 STONE DOORWAY (optional bed / AI voice later)
   ↓
-Notoria general  OR  simple intention  (optional)
+Castle Notoria general / faculty intention  (canonical — bible)
   ↓
 MĀTṛKĀ row — install one series (Bruno install formula)
   ↓

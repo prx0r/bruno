@@ -393,3 +393,13 @@ python3 daily_runtime.py panini --pratyahara ac
 - Stack: Bruno representation · Pāṇini transform · **Gurdjieff process** · Trika enact · StoneDoorway orchestrates
 - Boot: circle → triangle → process line → door → “Remember yourself.”
 - Conditioning: binaural + imaginal rehearsal → real-life cue (sports / confidence / speech)
+
+
+## Gurdjieff useful pieces + Castle bible status
+
+**[`GURDJIEFF-USEFUL-FOR-US.md`](./GURDJIEFF-USEFUL-FOR-US.md)**
+
+- **Castle Ars Notoria remains the bible** (faculty shell · places · notae) — not removed
+- Gurdjieff useful: self-remembering · waking sleep · octaves/shocks · Law of Three · three centers · mechanicalness
+- Session upgrade: boot “Remember yourself” · mid-session shock when octave stalls · “Complete the octave” return
+- Personality Enneagram types = not our use; process grammar = our use
