@@ -32,15 +32,87 @@
     "lab_object": "lexicon entry + caelum locus at lobby root"
   },
   "worlds": [
-    {"id": 1, "key": "matrika", "name": "Mātṛkā", "door": "pillar_1", "runtime": "sound_bench", "lab": "install varna rows", "faculty": "memory"},
-    {"id": 2, "key": "laya", "name": "Laya", "door": "pillar_2", "runtime": "absorption", "lab": "chant→mental→silence→bindu", "faculty": "understanding"},
-    {"id": 3, "key": "panini", "name": "Pāṇini", "door": "pillar_3", "runtime": "grammar_machine", "lab": "sūtra traces + pratyāhāra", "faculty": "intellect"},
-    {"id": 4, "key": "caelum", "name": "Caelum", "door": "pillar_4", "runtime": "spatial_os", "lab": "nine-door geometry (this lobby)", "faculty": "memory"},
-    {"id": 5, "key": "catena", "name": "Catena", "door": "pillar_5", "runtime": "chains", "lab": "derivation sequences", "faculty": "intellect"},
-    {"id": 6, "key": "arbor", "name": "Arbor", "door": "pillar_6", "runtime": "trees", "lab": "tattvas / taxonomy", "faculty": "understanding"},
-    {"id": 7, "key": "text_worlds", "name": "Text Worlds", "door": "pillar_7", "runtime": "text_worlds", "lab": "Śivasūtras / IPVV rooms", "faculty": "understanding"},
-    {"id": 8, "key": "familiar_room", "name": "Familiar’s Room", "door": "pillar_8", "runtime": "companion", "lab": "talisman + recall of install history", "faculty": "memory"},
-    {"id": 9, "key": "threshold", "name": "Threshold / Return", "door": "pillar_9", "runtime": "liminal", "lab": "leave · log · recoil", "faculty": "eloquence"}
+    {
+      "id": 1,
+      "key": "matrika",
+      "name": "Mātṛkā",
+      "door": "pillar_1",
+      "runtime": "sound_bench",
+      "lab": "install varna rows",
+      "faculty": "memory"
+    },
+    {
+      "id": 2,
+      "key": "laya",
+      "name": "Laya",
+      "door": "pillar_2",
+      "runtime": "absorption",
+      "lab": "chant→mental→silence→bindu",
+      "faculty": "understanding"
+    },
+    {
+      "id": 3,
+      "key": "panini",
+      "name": "Pāṇini",
+      "door": "pillar_3",
+      "runtime": "grammar_machine",
+      "lab": "sūtra traces + pratyāhāra",
+      "faculty": "intellect"
+    },
+    {
+      "id": 4,
+      "key": "caelum",
+      "name": "Caelum",
+      "door": "pillar_4",
+      "runtime": "spatial_os",
+      "lab": "nine-door geometry (this lobby)",
+      "faculty": "memory"
+    },
+    {
+      "id": 5,
+      "key": "catena",
+      "name": "Catena",
+      "door": "pillar_5",
+      "runtime": "chains",
+      "lab": "derivation sequences",
+      "faculty": "intellect"
+    },
+    {
+      "id": 6,
+      "key": "arbor",
+      "name": "Arbor",
+      "door": "pillar_6",
+      "runtime": "trees",
+      "lab": "tattvas / taxonomy",
+      "faculty": "understanding"
+    },
+    {
+      "id": 7,
+      "key": "text_worlds",
+      "name": "Text Worlds",
+      "door": "pillar_7",
+      "runtime": "text_worlds",
+      "lab": "Śivasūtras / IPVV rooms",
+      "faculty": "understanding"
+    },
+    {
+      "id": 8,
+      "key": "familiar_room",
+      "name": "Familiar’s Room",
+      "door": "pillar_8",
+      "runtime": "companion",
+      "lab": "talisman + recall of install history",
+      "faculty": "memory"
+    },
+    {
+      "id": 9,
+      "key": "threshold",
+      "name": "Threshold / Return",
+      "door": "pillar_9",
+      "runtime": "liminal",
+      "lab": "leave · log · recoil",
+      "faculty": "eloquence"
+    }
   ],
   "boot_script": [
     "enter",
@@ -69,5 +141,26 @@
     "stop_always": true,
     "steiner_caution": "Do not confuse inner images with external beings — label subjective vs lab object",
     "not_gothic_goetia": true
-  }
+  },
+  "audial_os": {
+    "design_doc": "sanskrit/STONEDOORWAY-AUDIAL-OS.md",
+    "beds": "sanskrit/worlds/stonedoorway-world-beds.json",
+    "progressive": {
+      "s1": "1 window — name it, walk through",
+      "s2": "2x2 four windows — reconstruct, pick one",
+      "s3": "3x3 nine pillars — name all, choose door"
+    },
+    "no_screen": true,
+    "mechanic": "selection = walk toward named window; bed on after tunnel cue"
+  },
+  "direct_doorways": [
+    {
+      "say": "Let's go into Sanskrit world",
+      "world": "matrika"
+    },
+    {
+      "say": "Open the Stone Doorway",
+      "world": "os_lobby"
+    }
+  ]
 }

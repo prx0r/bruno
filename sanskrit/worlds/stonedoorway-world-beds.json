@@ -1,0 +1,120 @@
+{
+  "name": "stonedoorway-world-beds",
+  "version": 1,
+  "product": "StoneDoorway",
+  "mode": "audial",
+  "note": "Binaural beds are aesthetic under voice. Not Hz-per-phoneme doctrine. Voice wins. Beds live in Stonedoorway engine / presets — map is the contract.",
+  "global": {
+    "threshold_bed": "matrika-night or soft drone",
+    "volume_policy": "low under voice; raise only in Laya silence",
+    "fade": "on enter after tunnel cue; on return before log"
+  },
+  "worlds": [
+    {
+      "id": 1,
+      "key": "matrika",
+      "name": "Mātṛkā",
+      "bed_preset": "matrika_install",
+      "beat_hz_example": 6.0,
+      "stereo": "centered under voice",
+      "voice_cue_on_walk": "Sanskrit sound world. The windows are letters.",
+      "work": "install one series"
+    },
+    {
+      "id": 2,
+      "key": "laya",
+      "name": "Laya",
+      "bed_preset": "laya_silence",
+      "beat_hz_example": 4.0,
+      "stereo": "very quiet or none after chant",
+      "voice_cue_on_walk": "Absorption. Voice will drop. Silence is the work.",
+      "work": "chant → mental → bindu"
+    },
+    {
+      "id": 3,
+      "key": "panini",
+      "name": "Pāṇini",
+      "bed_preset": "grammar_machine",
+      "beat_hz_example": 8.0,
+      "stereo": "slightly textured pulse",
+      "voice_cue_on_walk": "Grammar machine. Rules as gates.",
+      "work": "sūtra trace / pratyāhāra"
+    },
+    {
+      "id": 4,
+      "key": "caelum",
+      "name": "Caelum",
+      "bed_preset": "caelum_space",
+      "beat_hz_example": 7.0,
+      "stereo": "wide spatial",
+      "voice_cue_on_walk": "Spatial OS. Nine doors in the dark.",
+      "work": "navigate / reconstruct lobby"
+    },
+    {
+      "id": 5,
+      "key": "catena",
+      "name": "Catena",
+      "bed_preset": "chain_steps",
+      "beat_hz_example": 7.5,
+      "stereo": "stepwise left-right if possible",
+      "voice_cue_on_walk": "Chain. One link after another.",
+      "work": "derivation sequence"
+    },
+    {
+      "id": 6,
+      "key": "arbor",
+      "name": "Arbor",
+      "bed_preset": "tree_branch",
+      "beat_hz_example": 6.5,
+      "stereo": "dual-tone branches",
+      "voice_cue_on_walk": "Tree. Hierarchy breathes.",
+      "work": "taxonomy / tattvas"
+    },
+    {
+      "id": 7,
+      "key": "text_worlds",
+      "name": "Text Worlds",
+      "bed_preset": "text_deep",
+      "beat_hz_example": 5.0,
+      "stereo": "deeper bed",
+      "voice_cue_on_walk": "A text is a place. One sūtra room.",
+      "work": "inhabit a passage"
+    },
+    {
+      "id": 8,
+      "key": "familiar_room",
+      "name": "Familiar’s Room",
+      "bed_preset": "familiar_near",
+      "beat_hz_example": 6.0,
+      "stereo": "intimate near-voice",
+      "voice_cue_on_walk": "Your familiar is here. Recall what you installed.",
+      "work": "talisman + history"
+    },
+    {
+      "id": 9,
+      "key": "threshold",
+      "name": "Threshold / Return",
+      "bed_preset": "threshold_return",
+      "beat_hz_example": 6.0,
+      "stereo": "hum, then down",
+      "voice_cue_on_walk": "Return. Speak. Log. The door stays open.",
+      "work": "recoil + log"
+    }
+  ],
+  "progressive_grids": {
+    "s1": {"windows": 1, "instruction": "One window in the dark. Name it. Walk through."},
+    "s2": {"windows": 4, "layout": "2x2", "instruction": "Four windows. Reconstruct them. Pick one."},
+    "s3": {"windows": 9, "layout": "3x3", "instruction": "Nine pillars. Name all. Choose a door."}
+  },
+  "direct_doorways": [
+    {"say": "Let's go into Sanskrit world", "world": "matrika", "then": ["install", "speak", "return"]},
+    {"say": "Let's go into grammar world", "world": "panini", "then": ["trace", "speak", "return"]},
+    {"say": "Let's go into silence", "world": "laya", "then": ["chant", "silence", "return"]}
+  ],
+  "honesty": {
+    "rendered_ui_required": false,
+    "practice_is": "audial + imaginal reconstruction",
+    "familiar_is": "voice-cued mnemonic being",
+    "beds_are": "aesthetic context under voice"
+  }
+}

@@ -353,3 +353,12 @@ python3 daily_runtime.py panini --pratyahara ac
 - Boot: enter → name the nine worlds → pillars light → choose one door → work → return
 - Familiar = your mnemonic being (not entity-conjuration)
 - `python3 lab/daily_runtime.py doorway`
+
+
+## Audial OS (no screen)
+
+**[`STONEDOORWAY-AUDIAL-OS.md`](./STONEDOORWAY-AUDIAL-OS.md)** · beds: [`worlds/stonedoorway-world-beds.json`](./worlds/stonedoorway-world-beds.json)
+
+- Doorways = tunnels · “Let’s go into Sanskrit world” → bed + voice
+- Progressive grids: 1 window → 2×2 → 3×3 — **reconstruct in the dark**
+- Select = walk through named window · **all imaginal/auditory**
