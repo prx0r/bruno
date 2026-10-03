@@ -258,3 +258,16 @@ Doorway: `worlds/matrika-night.json`
 
 
 **Practice player:** `worlds/step1-phoneme-practice.html` → live `http://127.0.0.1:8820/step1-phoneme-practice.html`
+
+
+---
+
+## Bruno stack v2 — imagination tech
+
+**[`BRUNO-STACK-V2.md`](./BRUNO-STACK-V2.md)**
+
+- Drop Solomonic core · Bruno = LOCUS / IMAGO / VINCULUM / contractio
+- Stack: Bruno → Pāṇini → Abhinavagupta → text-worlds → StoneDoorway
+- Caelum = 3D spatial substrate (recursive octants)
+- 30 seals → WorldPrimitives — inventory: `worlds/triginta-sigilli-inventory.json`
+- Runtime: `worlds/bruno_primitives.py`
