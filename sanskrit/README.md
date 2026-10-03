@@ -191,3 +191,15 @@ Components: DerivationTree · SandhiDrill · ParseSentence · PhonemeGrid · lib
 - Worlds ladder: Sound → Language machine → Śiva Sūtras → Spanda → Pratyabhijñā/IPVV → Parātrīśikā → Mālinīvijayottara → Tantrāloka
 - Phoneme = atomic multi-layer object (linguistic + Pāṇinian + mnemonic + source-attested Trika)
 - AI: narrator · world master · socratic · scholar (EXPERIENCE ↔ SOURCE)
+
+---
+
+## Colors · frequencies · Fuller
+
+**[`COLORS-FREQUENCIES-FULLER.md`](./COLORS-FREQUENCIES-FULLER.md)**
+
+- Color table = **study scaffold** (tantrica2) + source tags — not one universal Abhinavagupta chart
+- Hz-per-chakra = modern contested overlay; voice mantra is the traditional path
+- Volume: tetrahedron notes, science thesis (speculative), platinum sound packs
+- Fuller: geometry/systems/monuments — **“frequency” = structure, not audio Hz**
+- Cymatics: sound↔geometry in matter — analogy, not chakra-Hz proof
