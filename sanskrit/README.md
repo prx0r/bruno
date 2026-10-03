@@ -286,3 +286,18 @@ Doorway: `worlds/matrika-night.json`
 - Varna as universal atom · provenance non-negotiable
 - Master: OpenPāṭala → KnowledgeGraph → three compilers → WorldCompiler → StoneDoorway
 - **Freeze rule:** primary text → formalization → code
+
+
+---
+
+## Greer · provenance · Bruno wheels → Pāṇini (verbatim)
+
+**[`GREER-PROVENANCE-BRUNO-PANINI.md`](./GREER-PROVENANCE-BRUNO-PANINI.md)**
+
+- Greer=practical · Gosnell=cross-check · Sturlese=Latin authority
+- Provenance layers: BRUNO_LATIN / GREER / GOSNELL / COMMENTARY / OUR_INTERPRETATION
+- Wheels: encode vs explore modes · jagged array / sparse tensor
+- Sanskrit varṇas as non-arbitrary wheel alphabet
+- Bruno engine: LEXICON · WHEEL · SCENE · LOCUS
+- Pāṇini spaces as constrained tuples (root × operator × tense × …)
+- Frozen corpus: `sources/private/` (9 files from R2 uploads) + IMPORT_MANIFEST.json

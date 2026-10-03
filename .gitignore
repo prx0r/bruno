@@ -11,3 +11,9 @@ worlds/renders/
 # Cloned external tools — see README; clone locally as needed
 tools/*
 !tools/README.md
+
+# private study corpus (z-library / copyrighted) — files on disk, not in git
+sources/private/*.pdf
+sources/private/*.epub
+sources/private/*.docx
+!sources/private/IMPORT_MANIFEST.json
