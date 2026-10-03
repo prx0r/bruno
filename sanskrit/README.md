@@ -165,3 +165,14 @@ Components: DerivationTree · SandhiDrill · ParseSentence · PhonemeGrid · lib
 - Reuses: Pāṭala corpus IDs + education compiler (adjacent, not merged)
 - Mātṛkā practice from `tantrica2.md` + tattvas colors
 - Anti-theatre: track sessions/recall/passage walks
+
+---
+
+## Night phoneme track × Abhinavagupta science
+
+**[`NIGHT-PHONEME-TRACK.md`](./NIGHT-PHONEME-TRACK.md)**
+
+- Abhinavagupta: phonemes-as-awareness, Mātṛkā/Mālinī, 4 speech levels, dvādaśānta, color/body placement
+- **No Hz-per-phoneme table in the texts** — binaural = modern bed overlay
+- Volume: science thesis, platinum sound-matrix packs, Āhnika texts, ROs
+- Night: Stonedoorway bed + spoken phonemes + tantrica2 color map + Notoria shell
