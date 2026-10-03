@@ -100,3 +100,15 @@ See `SANSKRIT-FIRST.md` and ochemapp `NOTORIA-METHOD.md`.
 `data/pratyaharas.json` · `phonemes.json` · `dhatus.json` · `sandhi-rules.json` · `verb-endings.csv` · `nominal-endings-inflected.csv`
 
 Components: DerivationTree · SandhiDrill · ParseSentence · PhonemeGrid · lib/derivation · lib/sandhi
+
+---
+
+## Full synthesis
+
+**Pāṇini Palace × Ars Notoria × Tantraloka:** [`PANINI-PALACE-NOTORIA-TANTRALOKA.md`](./PANINI-PALACE-NOTORIA-TANTRALOKA.md)
+
+- Palace that **behaves like** Pāṇini (executable zones)
+- Notoria = faculty + Grammar notae I–III → morphology / kārakas / sandhi+samāsa
+- Bruno = execution traces (location/agent/action/condition/output)
+- Tantraloka = Sound Gate depth (50 varṇas, 4 speech levels, mātṛkā)
+- Local stack: `/root/sanskrithelp` + volume tantraloka project
