@@ -203,3 +203,16 @@ Components: DerivationTree · SandhiDrill · ParseSentence · PhonemeGrid · lib
 - Volume: tetrahedron notes, science thesis (speculative), platinum sound packs
 - Fuller: geometry/systems/monuments — **“frequency” = structure, not audio Hz**
 - Cymatics: sound↔geometry in matter — analogy, not chakra-Hz proof
+
+---
+
+## Laya Yoga × Mātṛkā
+
+**[`LAYA-YOGA-MATRIKA.md`](./LAYA-YOGA-MATRIKA.md)**
+
+- Laya = **absorption** (not destruction) → bindu → recoil into daily life
+- **Mantra = Kuṇḍalinī in sound-form** · Mātṛkā phonemes = tattva/bīja machine
+- Fits four layers: Notoria shell → Mātṛkā install → **Laya absorb** → Pāṇini/Abhinavagupta
+- Night = absorption (chant→mental→silence); morning = recoil (speak the language)
+- Volume: `36-tattvas-sanskrit-layayoga.md` · sanskrithelp ROs + `layayoga.txt`
+- Optional advanced: SAUḤ (emission) / KHPHREṀ (withdrawal)
