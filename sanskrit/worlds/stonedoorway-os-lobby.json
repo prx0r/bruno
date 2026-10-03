@@ -162,5 +162,35 @@
       "say": "Open the Stone Doorway",
       "world": "os_lobby"
     }
-  ]
+  ],
+  "runtime_packages": {
+    "dir": "worlds/runtime/",
+    "packages": [
+      "sanskrit-matrika",
+      "sanskrit-laya",
+      "sanskrit-panini"
+    ],
+    "contract": "world.json + GUIDE.md",
+    "share": "git — shape AI structure yourself; others run the same shell"
+  },
+  "boot_sequence": [
+    "darkness",
+    "heptagram_sigil_faint",
+    "low_drone_binaural",
+    "voice: StoneDoorway. Enter.",
+    "doorway_opens",
+    "lobby_recall",
+    "work",
+    "return"
+  ],
+  "sigil": {
+    "shape": "heptagram_septagram_in_circle",
+    "roles": [
+      "brand",
+      "boot",
+      "entry_emblem",
+      "anchor_image"
+    ],
+    "usage": "black field → faint sigil → tone → doorway"
+  }
 }

@@ -362,3 +362,14 @@ python3 daily_runtime.py panini --pratyahara ac
 - Doorways = tunnels · “Let’s go into Sanskrit world” → bed + voice
 - Progressive grids: 1 window → 2×2 → 3×3 — **reconstruct in the dark**
 - Select = walk through named window · **all imaginal/auditory**
+
+
+## Bootloader + world runtimes
+
+**[`STONEDOORWAY-BOOTLOADER-WORLDRUNTIMES.md`](./STONEDOORWAY-BOOTLOADER-WORLDRUNTIMES.md)** · packages: [`worlds/runtime/`](./worlds/runtime/)
+
+- StoneDoorway = **auditory bootloader / OS shell** (not a renderer)
+- Heptagram sigil = brand + boot + entry
+- Progressive lobby 1→2→4→9 — **reconstruct before enter**
+- Worlds as **git packages**: `world.json` + `GUIDE.md`
+- First packages: `sanskrit-matrika` · `sanskrit-laya` · `sanskrit-panini`

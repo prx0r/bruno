@@ -1,0 +1,18 @@
+{
+  "id": "sanskrit-laya",
+  "name": "Laya",
+  "kind": "sanskrit_lab",
+  "bed": {"preset": "laya_silence", "hz_example": 4.0, "volume": "almost_none_after_chant"},
+  "trigger_phrases": ["Enter silence", "Laya world", "Absorption"],
+  "sigil": "heptagram_portal",
+  "lobby_keys": ["laya"],
+  "voice": {
+    "on_trigger": "StoneDoorway. Laya. Voice will drop. Silence is the work.",
+    "on_walk": "One phoneme. Bindu on it. Chant, then mental, then nothing.",
+    "on_work": "Three minutes. Do not fill the silence.",
+    "on_return": "Return. Log what dissolved."
+  },
+  "recall_prompts": ["What do you hear after the chant?", "Which phoneme held?"],
+  "work": {"protocol": "laya_silence", "faculty": "understanding"},
+  "license_note": "protocol only"
+}

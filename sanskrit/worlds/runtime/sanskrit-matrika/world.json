@@ -1,0 +1,29 @@
+{
+  "id": "sanskrit-matrika",
+  "name": "Mātṛkā",
+  "kind": "sanskrit_lab",
+  "stage_default": "install_series",
+  "bed": {"preset": "matrika_install", "hz_example": 6.0, "volume": "low_under_voice"},
+  "trigger_phrases": ["Let's go into Sanskrit world", "Enter Mātṛkā", "Enter Sanskrit world"],
+  "sigil": "heptagram_portal",
+  "lobby_keys": ["matrika"],
+  "voice": {
+    "on_trigger": "StoneDoorway. Tunnel open. Mātṛkā bed on.",
+    "on_walk": "You crossed. The letter is here. Form. Sound. Colour. Place.",
+    "on_work": "One series only. Chant with the bed. Then stop the bed. Chant alone. Silence three minutes. Speak one word.",
+    "on_return": "Return to the threshold. What stuck? One line."
+  },
+  "recall_prompts": ["What do you hear there?", "Which series is before you?", "What colour is the first letter?"],
+  "work": {
+    "protocol": "install_series",
+    "series": ["dentals", "gutturals", "labials"],
+    "faculty": "memory",
+    "cli": "python3 sanskrit/lab/daily_runtime.py session --faculty memory --series dentals"
+  },
+  "license_note": "protocol only; binaural beds licensed separately",
+  "provenance": {
+    "castle": "faculty shell memory",
+    "bruno": "locus + imago install",
+    "practice_schema": "tantrica2 matrika rows (pedagogical colors)"
+  }
+}

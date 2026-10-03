@@ -1,0 +1,25 @@
+{
+  "id": "sanskrit-panini",
+  "name": "Pāṇini",
+  "kind": "sanskrit_lab",
+  "bed": {"preset": "grammar_machine", "hz_example": 8.0},
+  "trigger_phrases": ["Enter grammar world", "Pāṇini", "Let's go into grammar"],
+  "sigil": "heptagram_portal",
+  "lobby_keys": ["panini"],
+  "voice": {
+    "on_trigger": "StoneDoorway. Grammar machine. Rules as gates.",
+    "on_walk": "One rule or one pratyāhāra. Watch the transformation.",
+    "on_work": "Trace. Do not memorize the whole system tonight.",
+    "on_return": "Return. Speak using what you traced."
+  },
+  "recall_prompts": ["What is the governing rule there?", "What transforms?"],
+  "work": {
+    "protocol": "panini_mini",
+    "cli_options": [
+      "python3 sanskrit/lab/daily_runtime.py panini --pratyahara ac",
+      "python3 sanskrit/lab/daily_runtime.py panini --sutra 1.1.2",
+      "python3 sanskrit/lab/daily_runtime.py panini --derive gam"
+    ]
+  },
+  "license_note": "protocol only; corpus at sources/panini"
+}
