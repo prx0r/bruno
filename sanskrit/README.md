@@ -112,3 +112,14 @@ Components: DerivationTree · SandhiDrill · ParseSentence · PhonemeGrid · lib
 - Bruno = execution traces (location/agent/action/condition/output)
 - Tantraloka = Sound Gate depth (50 varṇas, 4 speech levels, mātṛkā)
 - Local stack: `/root/sanskrithelp` + volume tantraloka project
+
+---
+
+## Deeper synthesis (Abhinavagupta / vāk)
+
+**Word-for-word essay:** [`PANINI-ABHINAVAGUPTA-SYNTHESIS.md`](./PANINI-ABHINAVAGUPTA-SYNTHESIS.md)
+
+- Pāṇini = generation · Abhinavagupta = what sound IS · Bruno = internal machine · Notoria = preparation  
+- Best next text: **Parātrīśikā-vivaraṇa** + **Tantrāloka III** (III.232–233)  
+- Dual-view phonemes · four floors of speech · Mātṛkā vs Mālinī paths · word/grammar/mantric levels  
+- Three maps: mouth + body (non-ritual) + Brunian space  
