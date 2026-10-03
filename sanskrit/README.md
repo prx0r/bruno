@@ -153,3 +153,15 @@ Components: DerivationTree · SandhiDrill · ParseSentence · PhonemeGrid · lib
 | Trika depth | sanskrithelp tantra + Parātrīśikā working copy |
 
 **Start:** palace JSON schema + dual-view phonemes + one TRACE.
+
+---
+
+## Adjacent project: Sanskrit Worlds
+
+**[`SANSKRIT-WORLDS-PROJECT.md`](./SANSKRIT-WORLDS-PROJECT.md)**
+
+- Embodied AI learning: chant phonemes + form + color + emotion → text-as-world
+- Curriculum: Śivasūtras → sandhi → verbs → Parātrīśikā/IPVV → Tantrāloka
+- Reuses: Pāṭala corpus IDs + education compiler (adjacent, not merged)
+- Mātṛkā practice from `tantrica2.md` + tattvas colors
+- Anti-theatre: track sessions/recall/passage walks
