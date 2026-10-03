@@ -271,3 +271,18 @@ Doorway: `worlds/matrika-night.json`
 - Caelum = 3D spatial substrate (recursive octants)
 - 30 seals → WorldPrimitives — inventory: `worlds/triginta-sigilli-inventory.json`
 - Runtime: `worlds/bruno_primitives.py`
+
+
+---
+
+## Wheels + Imaginal Compiler (verbatim freeze)
+
+**[`BRUNO-WHEELS-IMAGINAL-COMPILER.md`](./BRUNO-WHEELS-IMAGINAL-COMPILER.md)**
+
+- Forum on Bruno wheels (turducken) + architecture synthesis — **word for word**
+- `WorldIR` / `KnowledgeNode` · knowledge ≠ representation
+- Bruno = **Imaginal Compiler** (`CAMPUS`…`COMBINANS`) chosen by information topology
+- Separate runtimes: Pāṇini (transformation) · Bruno (imaginal) · Abhinavagupta (experiential)
+- Varna as universal atom · provenance non-negotiable
+- Master: OpenPāṭala → KnowledgeGraph → three compilers → WorldCompiler → StoneDoorway
+- **Freeze rule:** primary text → formalization → code

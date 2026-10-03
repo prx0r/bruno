@@ -7,6 +7,10 @@
 
 ---
 
+## See also
+
+**[`BRUNO-WHEELS-IMAGINAL-COMPILER.md`](./BRUNO-WHEELS-IMAGINAL-COMPILER.md)** — wheels + WorldIR + three-compiler master architecture (verbatim freeze)
+
 ## The stack (cleaner)
 
 ```text
