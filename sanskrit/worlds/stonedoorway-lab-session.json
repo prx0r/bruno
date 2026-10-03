@@ -1,0 +1,52 @@
+{
+  "name": "stonedoorway-lab-session",
+  "version": 1,
+  "product": "StoneDoorway",
+  "role": "Lab door — faculty + matrika + Laya + Pāṇini mini-task (not entity summoning)",
+  "relevance": {
+    "castle": "Faculty engine + method of places (optional purification)",
+    "bruno": "Caelum/IMAGO install + explore wheels",
+    "panini": "Pratyāhāra + teaching derivation traces",
+    "trika": "Contractio / bindu / uccāra (content layer)"
+  },
+  "voice_script": {
+    "onboarding": "You are now entering the Stone Doorway. Tonight is a Sanskrit lab session.",
+    "intention": "Choose one faculty: memory, intellect, eloquence, or understanding.",
+    "threshold": "Settle the breath. Quiet the body. We are not summoning entities — we are building an inhabitable inner world.",
+    "install": "Listen to the phoneme series. Place each letter in a definite locus. Give it colour and feeling.",
+    "contractio": "Hold one letter until sound, form, place and emotion fuse into a single image.",
+    "laya": "Drop the voice. Silence three minutes. Bindu on one phoneme.",
+    "panini": "Open the grammar machine for one rule or one pratyāhāra.",
+    "return": "Speak one Sanskrit word using the stack. Bring yourself back. Log what stuck."
+  },
+  "protocol": [
+    {"id": "intention", "faculty": "memory|intellect|eloquence|understanding", "minutes": 2},
+    {"id": "figure_hub", "note": "Castle-style discipline room / nota"},
+    {"id": "install_series", "minutes": 5, "series": "gutturals|dentals|labials"},
+    {"id": "contractio", "minutes": 3},
+    {"id": "laya_silence", "minutes": 3, "optional_bed": "matrika-night.json"},
+    {"id": "panini_mini", "minutes": 4, "options": ["pratyahara_ac", "sutra_1.1.2", "derive_gam"]},
+    {"id": "speak_recoil", "minutes": 3},
+    {"id": "log", "minutes": 1}
+  ],
+  "runtime": {
+    "cli": "python3 sanskrit/lab/daily_runtime.py session --faculty memory --series dentals",
+    "beds": ["sanskrit/worlds/matrika-night.json"],
+    "engine": "sanskrit/lab/bruno_engine.py",
+    "panini": "sanskrit/lab/panini_runtime.py",
+    "notoria": "sanskrit/lab/notoria_session.py"
+  },
+  "safety": {
+    "stop_always": true,
+    "medical_claims": false,
+    "scenario_roleplay": false,
+    "identity": "lab door / guided practice — not Goetic conjuration"
+  },
+  "endgame_roadmap": [
+    "AI voice guide in ears",
+    "subconscious viewing platform",
+    "voice: leave me here for one hour",
+    "manifestation / scenario modes",
+    "ElevenLabs scenarios (future, labelled)"
+  ]
+}

@@ -22,3 +22,4 @@ sources/private/*.docx
 sources/panini/vidyut/
 sources/panini/gretil/
 sources/panini/astadhyayi/
+__pycache__/
