@@ -135,3 +135,21 @@ Components: DerivationTree · SandhiDrill · ParseSentence · PhonemeGrid · lib
 - Modes: Pāṇini · Trika · Bruno · Notoria  
 - Tiny first structure: ANUTTARA → AHAM → phonemes → grammar → speech  
 - End-state: internal symbolic environment to think Sanskrit philosophy from inside its categories  
+
+---
+
+## Build structures (implementable)
+
+**[`BUILD-STRUCTURES.md`](./BUILD-STRUCTURES.md)** — web-researched stack:
+
+| Layer | Steal from |
+|-------|------------|
+| Prakriyā engine | Vidyut / Padmini |
+| Sandhi gates | Lakshmanan ontology + buda-base sandhi-engine |
+| Parse pipeline | kmadathil/sanskrit_parser Level 0–3 |
+| Spatial palace | GraphPalace Wing/Room/Drawer + KG |
+| Executable knowledge | PM-KR (W3C CG) |
+| Sanskrit KG | Terdalkar thesis / Sangrahaka |
+| Trika depth | sanskrithelp tantra + Parātrīśikā working copy |
+
+**Start:** palace JSON schema + dual-view phonemes + one TRACE.
