@@ -8,6 +8,7 @@ Practice stays **audial/imaginal** (no screen required).
 | `sanskrit-matrika/` | Mātṛkā — install series | matrika_install |
 | `sanskrit-laya/` | Laya — absorption | laya_silence |
 | `sanskrit-panini/` | Pāṇini — grammar gates | grammar_machine |
+| `memory-staged-tests/` | Memory — staged tests (guided) | memory_lab |
 
 Each package:
 - `world.json` — manifest, triggers, voice lines, work CLI
@@ -24,3 +25,5 @@ python3 /root/bruno/sanskrit/lab/daily_runtime.py doorway
 ```
 
 To add a world: copy a package, edit `world.json` + `GUIDE.md`, commit.
+
+**Tracks:** personal worlds (private) vs guided (`memory-staged-tests`) — keep separate.

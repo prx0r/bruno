@@ -373,3 +373,12 @@ python3 daily_runtime.py panini --pratyahara ac
 - Progressive lobby 1→2→4→9 — **reconstruct before enter**
 - Worlds as **git packages**: `world.json` + `GUIDE.md`
 - First packages: `sanskrit-matrika` · `sanskrit-laya` · `sanskrit-panini`
+
+
+## Personal + memory staged tests
+
+**[`STONEDOORWAY-PERSONAL-AND-MEMORY.md`](./STONEDOORWAY-PERSONAL-AND-MEMORY.md)** · package: `worlds/runtime/memory-staged-tests/`
+
+- Explore personally first · guided journeys later (separate track)
+- Memory world: M1–M5 staged tests unlock larger grids
+- Clone future: tunnel + custom bed + AI onboarding per world

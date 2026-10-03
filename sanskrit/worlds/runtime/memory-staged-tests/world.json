@@ -1,0 +1,30 @@
+{
+  "id": "memory-staged-tests",
+  "name": "Memory",
+  "kind": "guided_journey",
+  "track": "guided",
+  "bed": {"preset": "memory_lab", "hz_example": 6.5},
+  "trigger_phrases": ["Enter Memory world", "Memory tests", "Staged memory"],
+  "sigil": "heptagram_portal",
+  "lobby_keys": ["threshold", "matrika", "laya", "panini", "familiar_room"],
+  "voice": {
+    "on_trigger": "StoneDoorway. Memory world. Staged tests. You unlock the grid by remembering it.",
+    "on_walk": "Listen to the prompt. Answer aloud. No peeking.",
+    "on_work": "Pass to advance. Stay if you miss. That is training.",
+    "on_return": "Log which stage you held."
+  },
+  "stages": [
+    {"id": "M1", "windows": 1, "test": "Name 1 world + first object", "unlocks": "1-window lobby"},
+    {"id": "M2", "windows": 2, "test": "Name 2 series + 5 letters each", "unlocks": "2-window"},
+    {"id": "M3", "windows": 4, "test": "Name 4 worlds + bed cues", "unlocks": "2x2"},
+    {"id": "M4", "windows": 9, "test": "Reconstruct 9 worlds + one rule each", "unlocks": "3x3"},
+    {"id": "M5", "windows": 9, "test": "Free walk: any door, complete work, return", "unlocks": "OS fluency"}
+  ],
+  "test_script_examples": [
+    "Upper-left window — what is it?",
+    "What do you hear first?",
+    "What is the governing rule there?"
+  ],
+  "work": {"protocol": "memory_faculty", "cli": "python3 sanskrit/lab/daily_runtime.py session --faculty memory --series dentals"},
+  "license_note": "protocol only"
+}
