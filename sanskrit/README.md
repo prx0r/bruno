@@ -241,3 +241,17 @@ Components: DerivationTree · SandhiDrill · ParseSentence · PhonemeGrid · lib
 - Bruno + Pāṇini as **moving machines** you add to and simulate
 - Memory + “astral” = install via emotion; speak = manifest the stack
 - ElevenLabs scenarios later — now: foundation sessions + lab rooms
+
+---
+
+## Step 1 — start here
+
+**[`STEP1-DEVANAGARI.md`](./STEP1-DEVANAGARI.md)** · chart: [`worlds/step1-devanagari-chart.html`](./worlds/step1-devanagari-chart.html)
+
+1. **Write** gutturals + dentals (chart HTML)  
+2. **Hear** — sanskrithelp phoneme audio + one YouTube pronunciation clip  
+3. **Chant** series yourself (voice on top; binaural bed quiet underneath)  
+4. **Recall** without chart · **Laya silence** 3 min · log  
+
+Local audio: `sanskrithelp/public/audio/phonemes/` · data: `data/phonemes.json`  
+Doorway: `worlds/matrika-night.json`
