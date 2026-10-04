@@ -12,11 +12,13 @@ worlds/renders/
 tools/*
 !tools/README.md
 
-# private study corpus (z-library / copyrighted) — files on disk, not in git
-sources/private/*.pdf
-sources/private/*.epub
-sources/private/*.docx
-!sources/private/IMPORT_MANIFEST.json
+
+# study corpus — stay on disk only
+sources/private/
+texts/paratrisika*
+texts/warburg*
+texts/*.pdf
+!texts/README-texts.md
 
 # large Paniini corpus on disk (data index in lab/data committed)
 sources/panini/vidyut/
