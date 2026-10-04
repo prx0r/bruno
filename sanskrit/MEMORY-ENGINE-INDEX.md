@@ -13,3 +13,10 @@
 
 Shell copies + nightly status: `stoned/docs/memory/`  
 Runnable: stoneseed `matrika-night` · `routine-x` · ochema.co
+
+## AR / VBT practice cards (2026-10-04)
+
+- Product options: `grimoirer/data/products/vbt-ar-practice-cards.{json,md}`
+- Lineage: freaktown (cards/stage) · oddhobbies (print) · R2 wheels zip · sanskrithelp VB · grimoirer Notoria
+- Stack order: Bruno = representation · Pāṇini = transformation · sanskrithelp = day UI · Stonedoorway = night
+- Peer review baked in: place×manner wheels · curated pratyāhāras from Māheśvara · curated dhātu labels
