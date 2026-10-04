@@ -6,6 +6,7 @@
 | `BRUNO-WHEELS-IMAGINAL-COMPILER.md` | Wheel formalization |
 | `SANSKRIT-FIRST.md` | Platform decision |
 | **`CANONICAL-SANSKRIT-PATH-V1.md`** | **Canonical 8-week syllabus + videos** |
+| **`LAYA-BREATHWORK-ROADMAP.md`** | **Advanced 12-wk roadmap · Goswami · 1bref engine import** |
 | **`LAYA-BREATHWORK-CANONICAL.md`** | **Tonight: 1:4:2 · sushumna prep · laya · VBT breath** |
 | `ABHINAVAGUPTA-MATRIKA-CHANTING.md` | **How to chant mātṛkā** |
 | `sanskrit-world-model-layers.md` | **7-layer world-model** |

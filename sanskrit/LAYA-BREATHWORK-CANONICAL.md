@@ -186,3 +186,9 @@ DAYTIME (later)
 
 **Tonight: elongate · balance 1:4:2 · absorb. Do not force kundalini.  
 Consistency builds suṣumṇā conditions; force does not.**
+
+---
+
+## Advanced track
+
+See `LAYA-BREATHWORK-ROADMAP.md` — Goswami progression for bandhas + longer holds · 1bref engine import plan · 12-week path.
