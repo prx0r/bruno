@@ -5,6 +5,7 @@
 | `PANINI-PALACE-NOTORIA-TANTRALOKA.md` | Palace architecture |
 | `BRUNO-WHEELS-IMAGINAL-COMPILER.md` | Wheel formalization |
 | `SANSKRIT-FIRST.md` | Platform decision |
+| **`ROWE-TEMPLE-WORLD-COMPILER.md`** | **Rowe: 2D symbolic → 3D inhabitable world · activation state · TempleSpec** |
 | **`CANONICAL-SANSKRIT-PATH-V1.md`** | **Canonical 8-week syllabus + videos** |
 | **`LAYA-BREATHWORK-ROADMAP.md`** | **Advanced 12-wk roadmap · Goswami · 1bref engine import** |
 | **`LAYA-BREATHWORK-CANONICAL.md`** | **Tonight: 1:4:2 · sushumna prep · laya · VBT breath** |

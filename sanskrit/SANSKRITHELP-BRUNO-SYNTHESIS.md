@@ -225,3 +225,9 @@ Phase 1–2–5–7 on top of **existing** sanskrithelp zones + audio + tantra p
 | `sanskrithelp/docs/PANINI-PALACE-NOTORIA-TANTRALOKA.md` | Palace zone map |
 | `sanskrithelp/data/*` | Grammar machine data |
 | `stoned/docs/memory/*` | Shell syntheses + protocol status |
+
+---
+
+## Rowe layer (2026-10-04)
+
+`ROWE-TEMPLE-WORLD-COMPILER.md` — geometry derived from source system · activation state · modular world packages · TempleSpec for StoneDoorway.
