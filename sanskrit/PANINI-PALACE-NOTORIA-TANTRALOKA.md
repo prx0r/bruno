@@ -234,3 +234,19 @@ Over time **images fade** — the operation fires when you see an applicable for
 
 **October = construct the machine. November = operate Ars Grammar against it.**  
 **Sound Gate first — Tantraloka makes that gate conscious.**
+
+---
+
+## Related synthesis (2026-10-04)
+
+Auditory-first Sanskrit simulation (Arguelles × Bruno × body grammar × AI fade):
+
+- `stoned/docs/memory/sanskrit-imaginal-machine.md`
+- `stoned/docs/memory/tesla-mental-workspace.md`
+- `stoned/docs/memory/bruno-memory-wheels.md`
+
+**Direction:** entities that transform · rhythm primary · body = permanent grammar · AI teacher disappears · actual texts = reality check.
+
+### Lineage note (2026-10-04)
+
+`stoned/docs/memory/memory-computation-lineage.md` — Hugh address space · Llull/Bruno combinatorics · Leibniz calculus · three Sanskrit memory layers.
