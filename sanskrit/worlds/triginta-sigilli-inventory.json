@@ -1,7 +1,7 @@
 {
   "name": "triginta-sigilli-inventory",
   "source": "bruno/texts/bruno_ars_reminiscenti.html",
-  "work": "Ars Reminiscendi / Triginta Sigilli (1583)",
+  "work": "Ars Reminiscendi (1583, EA HTML headings verified on disk) — seal titles extracted from this file; full Explicatio triginta sigillorum text NOT on disk (see BRUNO-TEXTS-STATUS.md). Per-seal operations below are OUR computational glosses (status: interpreted), not Bruno's words.",
   "extraction": "TOC + H4 headings from EA HTML",
   "note": "Thirty seals as cognitive WorldPrimitives. Operational geometry over decorative woodcuts. Seal 25 repeats Caelum under a distinct heading — treat as re-entry/re-tuning of sky geometry, not a second storage system.",
   "corePrimitives": {
